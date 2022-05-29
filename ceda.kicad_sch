@@ -249,5 +249,8 @@
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/751ea553-10b6-4bcf-a8bf-5eabcf2623d3"
       (reference "RCK") (unit 1) (value "ContrastKnob") (footprint "")
     )
+    (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/225339c9-5a49-4250-93d7-65b6180a4f20"
+      (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
+    )
   )
 )
