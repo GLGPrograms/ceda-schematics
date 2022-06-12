@@ -252,5 +252,8 @@
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/225339c9-5a49-4250-93d7-65b6180a4f20"
       (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
     )
+    (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/5daeeee6-6353-4a57-8085-7f8c2e58e803"
+      (reference "U?") (unit 1) (value "Z8440/2") (footprint "")
+    )
   )
 )
