@@ -139,16 +139,16 @@
       (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/e3df07bf-3ffc-4940-820c-1edcc7f8802c"
-      (reference "C?") (unit 3) (value "7417") (footprint "")
+      (reference "C2") (unit 3) (value "7417") (footprint "")
     )
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/fdd17dc5-e4c4-422b-84d1-c5a73c284211"
       (reference "D5") (unit 1) (value "D") (footprint "")
     )
     (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/d54aac2d-a691-4dae-8832-b3ae777388e3"
-      (reference "D?") (unit 1) (value "74LS32") (footprint "")
+      (reference "D14") (unit 1) (value "74LS32") (footprint "")
     )
     (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/087386cd-aa28-4f16-b893-27e666d58d14"
-      (reference "D?") (unit 4) (value "74LS32") (footprint "")
+      (reference "D14") (unit 4) (value "74LS32") (footprint "")
     )
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/614c8f87-26e6-4936-ac08-17824aabdbfb"
       (reference "E7E11") (unit 1) (value "CRTC") (footprint "")
@@ -213,6 +213,9 @@
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/a0785fe0-4575-4fb3-a3ae-36bdc4ccec94"
       (reference "Q?") (unit 1) (value "Q_NPN_BCE") (footprint "")
     )
+    (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/d2913d89-b0f1-4b42-8358-fbee701391e4"
+      (reference "R40") (unit 1) (value "4k7") (footprint "")
+    )
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/35c8bfa7-9748-4a25-9a4c-b480bb3e2e54"
       (reference "R68") (unit 1) (value "470") (footprint "")
     )
@@ -240,11 +243,8 @@
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/e79f292b-8d40-4df6-84e6-b09fc197d06d"
       (reference "R76") (unit 1) (value "10") (footprint "")
     )
-    (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/d2913d89-b0f1-4b42-8358-fbee701391e4"
-      (reference "R?") (unit 1) (value "4k7") (footprint "")
-    )
     (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/d6c71f30-1d89-458c-a405-afcc488a7faa"
-      (reference "R?") (unit 1) (value "4k7") (footprint "")
+      (reference "R79") (unit 1) (value "4k7") (footprint "")
     )
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/751ea553-10b6-4bcf-a8bf-5eabcf2623d3"
       (reference "RCK") (unit 1) (value "ContrastKnob") (footprint "")
