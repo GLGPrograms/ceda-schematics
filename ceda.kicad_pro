@@ -328,6 +328,14 @@
     [
       "e6a0e8fd-e32c-428e-9a73-cac8f5494d05",
       "IO"
+    ],
+    [
+      "ef850a34-fb31-4ec2-8b90-4e6ea535ae17",
+      "Speaker"
+    ],
+    [
+      "1847fdc4-53d8-4940-8c5f-7a326599bae2",
+      "Z80CPU"
     ]
   ],
   "text_variables": {}
