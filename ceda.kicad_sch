@@ -296,14 +296,23 @@
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/8eec8fe0-45f3-4360-9d80-edc5c246f2ee"
       (reference "J15") (unit 1) (value "74LS161") (footprint "")
     )
+    (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/24e14e3c-564f-46d1-97db-c614eb7871fd"
+      (reference "J?") (unit 1) (value "SIOCLK") (footprint "")
+    )
     (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/b1f729a5-eca0-4413-bc71-3c76f3db5d0d"
       (reference "J?") (unit 1) (value "Conn_02x25_Odd_Even") (footprint "")
     )
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/e582a31c-3ec3-45a4-97da-704124c96bfc"
       (reference "J?") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "")
     )
+    (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/7bc47186-e8d5-4a74-9d97-fc62101d27d8"
+      (reference "JP?") (unit 1) (value "Jumper_2_Bridged") (footprint "")
+    )
     (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/b1ff7cfb-d99d-4638-98b9-4bd1cf188028"
       (reference "JP?") (unit 1) (value "KB_SEL") (footprint "")
+    )
+    (path "/e6a0e8fd-e32c-428e-9a73-cac8f5494d05/b535cebc-3fc3-4c8f-9f7c-0ebe199fef8f"
+      (reference "JP?") (unit 1) (value "Jumper_2_Bridged") (footprint "")
     )
     (path "/ce60e45b-d802-4380-8f39-bef3de5fa20e/0861a343-8225-4dc5-b0eb-0fe2c90f6e48"
       (reference "K15") (unit 4) (value "74LS04") (footprint "")
