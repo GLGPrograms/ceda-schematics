@@ -866,7 +866,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6b600152-1e38-41ba-ace8-c3e033a949e1)
   )
-  (text "IO = 0xD5" (at 139.7 25.4 0)
+  (text "IO = 0xDA" (at 139.7 25.4 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 99726bb2-2558-4691-9463-7062fe50977d)
   )
