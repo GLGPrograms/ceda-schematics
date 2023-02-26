@@ -340,6 +340,10 @@
     [
       "23c42ab9-740a-4e84-88f1-9f74965e7273",
       "GPIO"
+    ],
+    [
+      "4f1cc97c-1ae7-488a-96b4-ad54fee0fde4",
+      "DaughterBoard"
     ]
   ],
   "text_variables": {}
