@@ -4751,7 +4751,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 99262fc3-6240-48ff-9f4c-017a2ce25ded)
   )
-  (hierarchical_label "DATA" (shape input) (at 88.9 57.15 0)
+  (hierarchical_label "DATA" (shape bidirectional) (at 88.9 57.15 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b16067e3-15c0-474b-a07d-2e26a8abf459)
   )
