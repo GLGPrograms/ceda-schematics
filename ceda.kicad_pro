@@ -360,6 +360,10 @@
     [
       "4f1cc97c-1ae7-488a-96b4-ad54fee0fde4",
       "DaughterBoard"
+    ],
+    [
+      "4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba",
+      "MainMemoryManagement"
     ]
   ],
   "text_variables": {}

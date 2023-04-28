@@ -75,6 +75,26 @@
     )
   )
 
+  (sheet (at 101.6 54.61) (size 29.21 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba)
+    (property "Sheetname" "MainMemoryManagement" (at 101.6 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "main_memory_management.kicad_sch" (at 101.6 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Campo2" "" (at 101.6 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ceda"
+        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "8"))
+      )
+    )
+  )
+
   (sheet (at 25.4 25.4) (size 29.21 21.59) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
