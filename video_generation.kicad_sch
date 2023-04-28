@@ -3246,6 +3246,11 @@
     (stroke (width 0) (type default))
     (uuid 54ea201c-8f2b-4cbe-b44b-bfa996b4b73e)
   )
+
+  (wire (pts (xy 252.73 198.12) (xy 238.76 198.12))
+    (stroke (width 0) (type default))
+    (uuid 553c013d-13fc-4c14-9ce5-c10f422e72ca)
+  )
   (bus (pts (xy 203.2 157.48) (xy 203.2 160.02))
     (stroke (width 0) (type default))
     (uuid 557c2260-ae32-4fd4-a521-838f2280e581)
@@ -4096,6 +4101,11 @@
     (stroke (width 0) (type default))
     (uuid e2f82029-51d4-4a14-881b-d44fa74ca111)
   )
+
+  (wire (pts (xy 238.76 194.31) (xy 238.76 198.12))
+    (stroke (width 0) (type default))
+    (uuid e36b79d3-e5d6-4132-8378-d10a0d3ce750)
+  )
   (bus (pts (xy 93.98 240.03) (xy 93.98 242.57))
     (stroke (width 0) (type default))
     (uuid e41ecfe2-6985-4bc7-90b3-5292d9f94a2a)
@@ -4818,6 +4828,31 @@
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
           (reference "K15") (unit 4)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:VCC") (at 238.76 194.31 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0de0befb-588a-4230-8b03-31f3a39dc860)
+    (property "Reference" "#PWR01" (at 238.76 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "VCC" (at 238.76 190.7342 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 238.76 194.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 238.76 194.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 80131859-fa66-4605-ba69-067632a45aa4))
+    (instances
+      (project "ceda"
+        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -6011,10 +6046,10 @@
   (symbol (lib_id "74xx:74LS166") (at 265.43 180.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c5a7a30-508c-4179-8a1b-f8e022a466f2)
-    (property "Reference" "U?" (at 267.4494 154.305 0)
+    (property "Reference" "J14" (at 267.3859 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS166" (at 267.4494 156.845 0)
+    (property "Value" "74LS166" (at 267.3859 158.75 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 265.43 180.34 0)
@@ -6042,7 +6077,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
-          (reference "U?") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
