@@ -1,0 +1,15 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 203391ae-43cd-4f59-bbda-2be9e3d155dc)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "TODO: DRAM symbols" (at 50.8 30.48 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 24a008c3-8ad0-46c8-af70-1d06adfbaf45)
+  )
+)
