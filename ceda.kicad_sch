@@ -146,6 +146,26 @@
     )
   )
 
+  (sheet (at 139.7 54.61) (size 29.21 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f05e0b09-5f96-4638-8985-dbb50d0f6ef2)
+    (property "Sheetname" "DRAM and parity" (at 139.7 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "dram.kicad_sch" (at 139.7 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (property "Campo2" "" (at 139.7 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "ceda"
+        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "9"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

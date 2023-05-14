@@ -364,6 +364,10 @@
     [
       "4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba",
       "MainMemoryManagement"
+    ],
+    [
+      "f05e0b09-5f96-4638-8985-dbb50d0f6ef2",
+      "DRAM and parity"
     ]
   ],
   "text_variables": {}
