@@ -1996,6 +1996,10 @@
     (uuid c8bd4335-b0cf-4613-b347-5a8e2ea531af)
   )
 
+  (wire (pts (xy 39.37 81.28) (xy 46.99 81.28))
+    (stroke (width 0) (type default))
+    (uuid ca58db36-c47c-4150-8411-96c33a1b73e3)
+  )
   (wire (pts (xy 77.47 134.62) (xy 118.11 134.62))
     (stroke (width 0) (type default))
     (uuid cc962f5b-4cb0-4747-9ca9-ec45182c01d6)
@@ -2213,6 +2217,10 @@
   (label "~{RD}" (at 30.48 123.19 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 62416bed-b07c-4739-ac62-28f4b228f41e)
+  )
+  (label "~{RFSH}" (at 39.37 81.28 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 86702fbe-69ab-460f-b026-d05f7bf4a392)
   )
   (label "~{m1}" (at 80.01 91.44 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -2480,10 +2488,10 @@
   (symbol (lib_id "74xx:74LS244") (at 198.12 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c714097-3f13-4fae-9eb8-ec174f33fb70)
-    (property "Reference" "U?" (at 200.1394 21.59 0)
+    (property "Reference" "H3" (at 200.0759 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS244" (at 200.1394 24.13 0)
+    (property "Value" "74LS244" (at 200.0759 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 198.12 41.91 0)
@@ -2515,7 +2523,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/1847fdc4-53d8-4940-8c5f-7a326599bae2"
-          (reference "U?") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
