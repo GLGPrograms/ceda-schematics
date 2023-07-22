@@ -2868,6 +2868,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f00a5ed4-51f8-4fb2-9296-f93360245905)
   )
+  (label "MREQ" (at 223.52 69.85 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid fa7651f0-75a9-4c23-b1e6-abed05a04fa7)
+  )
 
   (hierarchical_label "~{RESET}" (shape input) (at 27.94 105.41 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
