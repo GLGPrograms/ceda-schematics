@@ -112,6 +112,23 @@
     )
   )
 
+  (sheet (at 174.625 25.4) (size 30.48 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d9e42cc5-3ed8-41e5-aab1-e3ef5c13a809)
+    (property "Sheetname" "Reset" (at 174.625 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "reset.kicad_sch" (at 174.625 47.5746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ceda"
+        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "10"))
+      )
+    )
+  )
+
   (sheet (at 63.5 25.4) (size 29.21 21.59) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
