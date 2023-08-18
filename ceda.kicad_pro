@@ -368,6 +368,10 @@
     [
       "f05e0b09-5f96-4638-8985-dbb50d0f6ef2",
       "DRAM and parity"
+    ],
+    [
+      "d9e42cc5-3ed8-41e5-aab1-e3ef5c13a809",
+      "Reset"
     ]
   ],
   "text_variables": {}
