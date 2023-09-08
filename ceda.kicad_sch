@@ -58,6 +58,23 @@
     )
   )
 
+  (sheet (at 176.53 54.61) (size 30.48 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 30cc577a-62cc-4eb0-beb7-81a864bc3256)
+    (property "Sheetname" "FloppyDiskController" (at 176.53 53.8984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "floppy_disk_controller.kicad_sch" (at 176.53 76.7846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "ceda"
+        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "11"))
+      )
+    )
+  )
+
   (sheet (at 63.5 54.61) (size 29.21 21.59) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -112,14 +129,14 @@
     )
   )
 
-  (sheet (at 174.625 25.4) (size 30.48 21.59) (fields_autoplaced)
+  (sheet (at 176.53 25.4) (size 30.48 21.59) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid d9e42cc5-3ed8-41e5-aab1-e3ef5c13a809)
-    (property "Sheetname" "Reset" (at 174.625 24.6884 0)
+    (property "Sheetname" "Reset" (at 176.53 24.6884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "reset.kicad_sch" (at 174.625 47.5746 0)
+    (property "Sheetfile" "reset.kicad_sch" (at 176.53 47.5746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
