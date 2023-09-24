@@ -376,6 +376,10 @@
     [
       "30cc577a-62cc-4eb0-beb7-81a864bc3256",
       "FloppyDiskController"
+    ],
+    [
+      "08d69802-ecbf-4783-8ee3-1052eb874de4",
+      "CTC"
     ]
   ],
   "text_variables": {}
