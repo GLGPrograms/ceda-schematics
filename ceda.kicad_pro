@@ -311,7 +311,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -343,11 +343,11 @@
     ],
     [
       "e6a0e8fd-e32c-428e-9a73-cac8f5494d05",
-      "SERIAL"
+      "Serial"
     ],
     [
       "ef850a34-fb31-4ec2-8b90-4e6ea535ae17",
-      "Speaker"
+      "IO space"
     ],
     [
       "1847fdc4-53d8-4940-8c5f-7a326599bae2",
@@ -380,6 +380,10 @@
     [
       "08d69802-ecbf-4783-8ee3-1052eb874de4",
       "CTC"
+    ],
+    [
+      "3df68a1a-abd3-4ad7-9eb9-855dfc37a3a7",
+      "Video Memory"
     ]
   ],
   "text_variables": {}
