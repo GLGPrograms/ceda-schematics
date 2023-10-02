@@ -5070,9 +5070,9 @@
     (uuid ff8e4350-c7d7-4a03-8950-66ad92491ad6)
   )
 
-  (text "WE and OE\nare same as H9" (at 190.5 82.55 0)
+  (text "Attribute\n   RAM" (at 163.83 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 13786257-1071-4ce0-a3d4-ba546f8f200d)
+    (uuid 29aa165e-3b6f-4411-a042-88ae40b933d3)
   )
   (text "Character and attribute RAM can be concurrently\naddressed by Z80 and CRTC:\n- CRTC enables both RAMs during positive pulses\nof video main clock (1.875MHz).\n- Z80 selectively enables each RAM IC through a\nbank switch signal."
     (at 229.87 275.59 0)
@@ -5086,10 +5086,6 @@
   (text "TODO" (at 143.51 260.35 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4cbe1553-822d-487f-a132-474b3a011392)
-  )
-  (text "Bus is shared with video memory H9" (at 201.93 86.36 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 5172b3d1-3da6-4905-a610-73b144fb460c)
   )
   (text "Addressing Logic\nMUXSEL\n0 -> CRTC\n1 -> Z80" (at 54.61 76.2 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
