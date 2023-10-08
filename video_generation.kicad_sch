@@ -6962,7 +6962,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f1bfaa0f-a6e8-4ffc-8487-d3799918d3bd)
   )
-  (label "C1" (at 284.48 177.8 180) (fields_autoplaced)
+  (label "FRAME_SYNC" (at 284.48 177.8 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid f4cf7571-91a4-4d1e-a1a4-0cf0f0db29ac)
   )
