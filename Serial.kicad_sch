@@ -2562,7 +2562,7 @@
   (symbol (lib_id "74xx:74LS32") (at 54.61 184.15 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 087386cd-aa28-4f16-b893-27e666d58d14)
-    (property "Reference" "D14" (at 54.61 175.26 0)
+    (property "Reference" "UD14" (at 54.61 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS32" (at 54.61 177.8 0)
@@ -2591,7 +2591,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "D14") (unit 4)
+          (reference "UD14") (unit 4)
         )
       )
     )
@@ -2623,12 +2623,12 @@
   )
 
   (symbol (lib_id "ceda:SN75188") (at 175.26 90.17 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 173ad410-0d51-4596-8539-c60316991315)
-    (property "Reference" "D15" (at 175.2517 83.82 0)
+    (property "Reference" "UD15" (at 180.975 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 175.26 99.06 0)
+    (property "Value" "SN75188" (at 180.975 85.725 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 175.26 99.06 0)
@@ -2654,7 +2654,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "D15") (unit 3)
+          (reference "UD15") (unit 3)
         )
       )
     )
@@ -2693,7 +2693,7 @@
   (symbol (lib_id "ceda:SN74189") (at 129.54 90.17 0) (mirror y) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2540c3d9-b481-4a4e-a9eb-31b92c7046d1)
-    (property "Reference" "C15" (at 133.35 83.82 0)
+    (property "Reference" "UC15" (at 133.35 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 129.54 90.17 0)
@@ -2722,7 +2722,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "C15") (unit 3)
+          (reference "UC15") (unit 3)
         )
       )
     )
@@ -2731,10 +2731,10 @@
   (symbol (lib_id "ceda:SN74189") (at 223.52 90.17 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25fc0c36-3604-4a1d-8a80-25bc1812a6f1)
-    (property "Reference" "A15" (at 228.6 83.82 0)
+    (property "Reference" "UA15" (at 230.505 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 223.52 90.17 0)
+    (property "Value" "SN75189" (at 231.14 85.725 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 223.52 90.17 0)
@@ -2760,7 +2760,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "A15") (unit 4)
+          (reference "UA15") (unit 4)
         )
       )
     )
@@ -2794,10 +2794,10 @@
   (symbol (lib_id "ceda:SN74189") (at 223.52 74.93 0) (mirror y) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2944238e-7a49-4d3b-aa04-9f5260699224)
-    (property "Reference" "A15" (at 228.6 68.58 0)
+    (property "Reference" "UA15" (at 230.505 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 223.52 74.93 0)
+    (property "Value" "SN75189" (at 231.14 70.485 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 223.52 74.93 0)
@@ -2823,7 +2823,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "A15") (unit 3)
+          (reference "UA15") (unit 3)
         )
       )
     )
@@ -2905,12 +2905,12 @@
   )
 
   (symbol (lib_id "ceda:SN75188") (at 247.65 152.4 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3f61d4d9-82d0-4ec3-bb46-c59013f51744)
-    (property "Reference" "D16" (at 247.65 146.05 0)
+    (property "Reference" "UD16" (at 250.19 146.05 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 247.65 161.29 0)
+    (property "Value" "SN75188" (at 250.19 148.59 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 247.65 161.29 0)
@@ -2919,24 +2919,24 @@
     (property "Datasheet" "" (at 247.65 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0e010382-c567-4605-a1c8-46d48cda2cd5))
-    (pin "3" (uuid 9e9877eb-3c12-4aa9-a46b-a214bed8a2ad))
-    (pin "4" (uuid 2c50bc6b-ba25-4bf5-8004-d20fe1699235))
-    (pin "5" (uuid 22a52be7-25b1-41a7-afe0-6c4a03e1854c))
-    (pin "6" (uuid c6038417-86e8-462f-8f18-5f0c6bb4e386))
-    (pin "10" (uuid adfad5f0-a884-4a1d-912a-855348c8139f))
-    (pin "8" (uuid f21279fc-6526-470b-9eca-c59dcbbbc16c))
-    (pin "9" (uuid 303b51f3-a371-482a-9a62-342748d92f5a))
-    (pin "11" (uuid 9e7833e0-9765-4b52-9e61-fa20b4e5cb29))
-    (pin "12" (uuid 7ab21579-624d-4f16-b67f-c04363757acc))
-    (pin "13" (uuid b43e70aa-6bc1-4002-95ae-d21861eaf4c0))
-    (pin "1" (uuid e13c7410-3d2c-4575-98ed-d5ac8f3493e5))
-    (pin "14" (uuid 467968b0-110e-4be2-9968-35fe8d639482))
-    (pin "7" (uuid bfd4fad9-5bb4-4870-bf60-0f1f6d954e02))
+    (pin "2" (uuid b77d5ef5-a6d9-4665-a61e-a98b41c6a23f))
+    (pin "3" (uuid 718e47c9-af97-43f1-a66a-774cbe51487e))
+    (pin "4" (uuid b532d0d8-fd80-4d33-80d8-b123877d1ded))
+    (pin "5" (uuid faf98069-47b7-4670-afde-29f5687855a6))
+    (pin "6" (uuid e0663c18-33ef-43c1-a895-f832816b397d))
+    (pin "10" (uuid d067c40c-ad8d-40e4-ab83-032f7ff32e6f))
+    (pin "8" (uuid b34d1cd8-ee95-4bca-9444-2b257bd79bcb))
+    (pin "9" (uuid df05c686-5141-4861-88a1-ca79026f74d4))
+    (pin "11" (uuid af3194fc-4ca3-41aa-9e01-0b8d27ea237a))
+    (pin "12" (uuid abd60f02-3402-4679-9ea1-f049b1f5a6f0))
+    (pin "13" (uuid 33565f1b-ee20-4c5d-b5d1-d580a23f3071))
+    (pin "1" (uuid 6ac90280-503f-41e3-b80d-fa3954b5e2e9))
+    (pin "14" (uuid ea37864c-7f3f-4802-9bff-1c63d2257dd9))
+    (pin "7" (uuid 3a5fe8be-422e-4610-9830-531c9a94988c))
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "D16") (unit 1)
+          (reference "UD16") (unit 1)
         )
       )
     )
@@ -2970,10 +2970,10 @@
   (symbol (lib_id "ceda:Z8440{slash}2") (at 58.42 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5daeeee6-6353-4a57-8085-7f8c2e58e803)
-    (property "Reference" "U?" (at 60.6141 35.56 0)
+    (property "Reference" "UC10" (at 60.6141 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Z8440/2 (SIO/2)" (at 60.6141 38.1 0)
+    (property "Value" "Z8440/2 (SIO/2)" (at 60.6141 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 52.705 55.245 0)
@@ -3025,19 +3025,19 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "U?") (unit 1)
+          (reference "UC10") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "ceda:SN75188") (at 175.26 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 648e5aaa-d2ff-444c-979e-8936f9b644dd)
-    (property "Reference" "D15" (at 175.26 52.07 0)
+    (property "Reference" "UD15" (at 177.165 52.705 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 175.26 67.31 0)
+    (property "Value" "SN75188" (at 177.8 54.61 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 175.26 67.31 0)
@@ -3063,7 +3063,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "D15") (unit 1)
+          (reference "UD15") (unit 1)
         )
       )
     )
@@ -3095,12 +3095,12 @@
   )
 
   (symbol (lib_id "ceda:SN75188") (at 175.26 74.93 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ebbd075-d9ec-444f-84fb-651f576fbab1)
-    (property "Reference" "D15" (at 175.2517 68.58 0)
+    (property "Reference" "UD15" (at 180.975 67.945 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 175.26 83.82 0)
+    (property "Value" "SN75188" (at 180.975 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 175.26 83.82 0)
@@ -3126,7 +3126,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "D15") (unit 2)
+          (reference "UD15") (unit 2)
         )
       )
     )
@@ -3159,12 +3159,12 @@
   )
 
   (symbol (lib_id "ceda:SN75188") (at 220.98 58.42 0) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 81f4dd77-58f6-4423-9d14-788a218e0fe1)
-    (property "Reference" "D15" (at 220.9717 52.07 0)
+    (property "Reference" "UD15" (at 227.33 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 220.98 67.31 0)
+    (property "Value" "SN75188" (at 227.33 53.975 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 220.98 67.31 0)
@@ -3190,7 +3190,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "D15") (unit 4)
+          (reference "UD15") (unit 4)
         )
       )
     )
@@ -3199,7 +3199,7 @@
   (symbol (lib_id "ceda:SN74189") (at 129.54 74.93 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 86caf193-0e55-48e4-bd4b-0b41a5b51a4d)
-    (property "Reference" "C15" (at 133.35 68.58 0)
+    (property "Reference" "UC15" (at 133.35 68.58 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 129.54 74.93 0)
@@ -3228,7 +3228,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "C15") (unit 2)
+          (reference "UC15") (unit 2)
         )
       )
     )
@@ -3237,7 +3237,7 @@
   (symbol (lib_id "ceda:SN74189") (at 265.43 90.17 0) (mirror y) (unit 4)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c97eb4d-c65c-4e38-a7d6-291b7dac188a)
-    (property "Reference" "C15" (at 264.16 96.52 0)
+    (property "Reference" "UC15" (at 264.16 96.52 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 265.43 90.17 0)
@@ -3266,7 +3266,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "C15") (unit 4)
+          (reference "UC15") (unit 4)
         )
       )
     )
@@ -3377,7 +3377,7 @@
   (symbol (lib_id "74xx:74LS32") (at 229.87 152.4 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6619385-0a14-4705-8651-d5bc954f7b73)
-    (property "Reference" "D14" (at 229.87 143.51 0)
+    (property "Reference" "UD14" (at 229.87 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS32" (at 229.87 146.05 0)
@@ -3406,19 +3406,19 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "D14") (unit 2)
+          (reference "UD14") (unit 2)
         )
       )
     )
   )
 
-  (symbol (lib_id "74xx:74LS04") (at 208.28 154.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "74xx:74LS04") (at 208.28 154.94 0) (unit 4)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b69ad1ca-226f-4c60-902c-daf265ae87cd)
-    (property "Reference" "UB9" (at 208.28 161.29 0)
+    (property "Reference" "UB9" (at 209.55 159.385 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS04" (at 208.28 163.83 0)
+    (property "Value" "74LS04" (at 209.55 161.925 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 208.28 154.94 0)
@@ -3444,7 +3444,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "UB9") (unit 1)
+          (reference "UB9") (unit 4)
         )
       )
     )
@@ -3453,10 +3453,10 @@
   (symbol (lib_id "ceda:SN74189") (at 254 134.62 0) (mirror y) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c7f2ea22-71b5-43a7-a749-89386a459884)
-    (property "Reference" "A15" (at 252.73 140.97 0)
+    (property "Reference" "UA15" (at 249.555 137.795 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 254 134.62 0)
+    (property "Value" "SN75189" (at 250.825 139.7 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 254 134.62 0)
@@ -3465,24 +3465,24 @@
     (property "Datasheet" "" (at 254 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8e3669a4-bbaa-4d5a-9aea-34dc98ebb100))
-    (pin "2" (uuid 7bfd833f-36c4-4293-8659-8cc3894520c1))
-    (pin "3" (uuid fd6ba942-5072-4d3e-9b84-7c494cd5b9ef))
-    (pin "4" (uuid 1d0aeaf5-1388-4f83-9da3-583efa879b18))
-    (pin "5" (uuid 04ea13cd-7878-405c-8936-0109f158fbb2))
-    (pin "6" (uuid 32d999ab-ff0a-41e3-80ef-ff26570901e1))
-    (pin "10" (uuid 31f9a2e7-ee2e-4689-9219-608d7ed4bed1))
-    (pin "8" (uuid 4bb4858f-ed7a-4ab1-9abd-2ab5cf2b597d))
-    (pin "9" (uuid eba4526a-e369-418f-9092-f9530d649b55))
-    (pin "11" (uuid 0a56e4fd-6d50-464b-a9db-b7ddfa3b6291))
-    (pin "12" (uuid ed0b06ba-5e2d-4178-88f8-2845c5f45f7f))
-    (pin "13" (uuid 8ffcdd40-0e96-4ea1-949c-75968cfb125a))
-    (pin "14" (uuid 4bf8d585-a228-41f1-804d-aa91305b99a2))
-    (pin "7" (uuid 9d1fb3f0-eb4e-49d7-a66b-8801c3b4386c))
+    (pin "1" (uuid 9654372f-19df-499c-9f1e-66f1a77d169b))
+    (pin "2" (uuid 4de7c240-d140-48e6-b9a8-10c7bcdf244b))
+    (pin "3" (uuid 6865b1f1-2924-4572-977c-dec9d0b70a2a))
+    (pin "4" (uuid 6465e54a-bee1-41cf-9763-393c4cda6c98))
+    (pin "5" (uuid 811dee51-5860-4c19-ba3b-0eba96a91ed2))
+    (pin "6" (uuid e6d0ea72-8572-449b-9659-b64d440b9e95))
+    (pin "10" (uuid 1efbe53d-6cc0-4108-b91e-7068b23feed5))
+    (pin "8" (uuid 3c4d9054-568d-4373-9ff9-4ff9e4ffb6bb))
+    (pin "9" (uuid b7f0ca21-5816-4f38-8f96-6ec47b6293cb))
+    (pin "11" (uuid 3992b350-40a5-4daf-9998-2e83cefe094b))
+    (pin "12" (uuid 37e5833c-aa8d-4a66-93c5-443b4ecdeb30))
+    (pin "13" (uuid b8c7a125-e480-4bc7-9085-d0925392ce17))
+    (pin "14" (uuid 830f1db1-9bdf-4ca5-9d56-e4d3714fc82d))
+    (pin "7" (uuid d8830b3c-1445-4635-a30d-f12ef63c41de))
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "A15") (unit 2)
+          (reference "UA15") (unit 2)
         )
       )
     )
@@ -3491,10 +3491,10 @@
   (symbol (lib_id "ceda:SN74189") (at 208.28 133.35 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ceefdc9d-3608-4525-985b-f971d8dd216c)
-    (property "Reference" "A15" (at 207.01 139.7 0)
+    (property "Reference" "UA15" (at 203.835 136.525 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 208.28 133.35 0)
+    (property "Value" "SN75189" (at 205.105 138.43 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 208.28 133.35 0)
@@ -3503,24 +3503,24 @@
     (property "Datasheet" "" (at 208.28 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e4c5f3d4-d105-436d-b1db-170697f956ad))
-    (pin "2" (uuid e24a3bb1-ff02-4153-acb4-b6b7bc08e36e))
-    (pin "3" (uuid 0d16a5e4-fe8e-48ef-a2f4-60e50a9419c0))
-    (pin "4" (uuid 858f09a5-da68-4c1b-8a5e-2a1be865ca85))
-    (pin "5" (uuid f572b2a3-f9ad-4a5e-b999-1301cb9fcb06))
-    (pin "6" (uuid 3a3f3f14-b734-498f-9a12-eb30bbe350f5))
-    (pin "10" (uuid a9dbf6ae-27af-4242-a106-0289e0e3c7b9))
-    (pin "8" (uuid d5a262ca-7121-486a-bd10-d9006861b9ee))
-    (pin "9" (uuid 75670a9d-e3b1-4624-a85e-d3f6c709772e))
-    (pin "11" (uuid 76df834c-ad96-42d5-98db-8f67979b475e))
-    (pin "12" (uuid 155f943b-59fb-4638-b87f-81e0c0091eb9))
-    (pin "13" (uuid 689067d2-c8a5-4b7c-85c9-d0d1f980ac10))
-    (pin "14" (uuid bd7b75b0-26d4-4682-9dbc-1c73d4e793ac))
-    (pin "7" (uuid effdc906-f586-467d-ab5a-2bdde658f0ed))
+    (pin "1" (uuid 6ffe6238-fbd5-435a-8049-bfd0554150a5))
+    (pin "2" (uuid d031e377-b692-4752-9a88-f93be396601a))
+    (pin "3" (uuid aa12f8bd-c7a9-460f-b344-e746ffe572c3))
+    (pin "4" (uuid 43253f99-96ab-4951-862b-022283c772f1))
+    (pin "5" (uuid 80b840df-3380-4472-810a-698bba480e35))
+    (pin "6" (uuid 3153be38-e18b-4790-ac22-e21ba225670d))
+    (pin "10" (uuid 4999dd17-ec14-45d0-8c1c-15e7cbeaef37))
+    (pin "8" (uuid 66602858-d8c6-4611-b7b5-33cd15b3ccfe))
+    (pin "9" (uuid bd43f67a-c1ef-4d91-a111-cee55998deea))
+    (pin "11" (uuid 7060fd47-f1fb-4fef-9a50-596834fc42af))
+    (pin "12" (uuid 877971f5-adf3-44d2-b499-e6102a0ad749))
+    (pin "13" (uuid f05edb14-6691-4e65-b694-7e1b710ec7ac))
+    (pin "14" (uuid de54c968-c30d-4373-85c6-7c053dea2160))
+    (pin "7" (uuid fd4ef213-2b95-4768-89b0-46832bdd8370))
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "A15") (unit 1)
+          (reference "UA15") (unit 1)
         )
       )
     )
@@ -3632,7 +3632,7 @@
   (symbol (lib_id "74xx:74LS32") (at 44.45 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d54aac2d-a691-4dae-8832-b3ae777388e3)
-    (property "Reference" "D14" (at 44.45 151.13 0)
+    (property "Reference" "UD14" (at 44.45 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS32" (at 44.45 153.67 0)
@@ -3661,7 +3661,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "D14") (unit 1)
+          (reference "UD14") (unit 1)
         )
       )
     )
@@ -3722,7 +3722,7 @@
   (symbol (lib_id "74xx:74LS07") (at 68.58 160.02 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3df07bf-3ffc-4940-820c-1edcc7f8802c)
-    (property "Reference" "C2" (at 68.58 151.13 0)
+    (property "Reference" "UC2" (at 68.58 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7417" (at 68.58 153.67 0)
@@ -3751,7 +3751,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "C2") (unit 3)
+          (reference "UC2") (unit 3)
         )
       )
     )
@@ -3837,7 +3837,7 @@
   (symbol (lib_id "ceda:SN74189") (at 129.54 58.42 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fff7b3d3-5c56-4498-a573-b12aa67585ef)
-    (property "Reference" "C15" (at 133.35 52.07 0)
+    (property "Reference" "UC15" (at 133.35 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 129.54 58.42 0)
@@ -3866,7 +3866,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-          (reference "C15") (unit 1)
+          (reference "UC15") (unit 1)
         )
       )
     )

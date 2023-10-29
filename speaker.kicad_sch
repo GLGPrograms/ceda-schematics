@@ -2493,12 +2493,12 @@
   )
 
   (symbol (lib_id "74xx:74LS138") (at 77.47 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2366f2c2-091b-4605-bbb2-02bc96d6cbf2)
-    (property "Reference" "D8" (at 79.4894 75.0402 0)
+    (property "Reference" "UD8" (at 79.375 74.295 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS138" (at 79.4894 77.5771 0)
+    (property "Value" "74LS138" (at 79.375 76.835 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 77.47 88.9 0)
@@ -2526,7 +2526,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ef850a34-fb31-4ec2-8b90-4e6ea535ae17"
-          (reference "D8") (unit 1)
+          (reference "UD8") (unit 1)
         )
       )
     )
@@ -2609,12 +2609,12 @@
   )
 
   (symbol (lib_id "74xx:74LS138") (at 77.47 40.64 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 482bbc03-4491-42ac-8035-e96e2c707dbd)
-    (property "Reference" "D9" (at 79.4894 26.7802 0)
+    (property "Reference" "UD9" (at 80.01 26.035 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "74LS138" (at 79.4894 29.3171 0)
+    (property "Value" "74LS138" (at 80.01 28.575 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 77.47 40.64 0)
@@ -2642,7 +2642,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ef850a34-fb31-4ec2-8b90-4e6ea535ae17"
-          (reference "D9") (unit 1)
+          (reference "UD9") (unit 1)
         )
       )
     )
@@ -2651,7 +2651,7 @@
   (symbol (lib_id "74xx:74LS541") (at 90.17 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fc0e478-3be5-4c55-a2c1-1786717b61f4)
-    (property "Reference" "A11" (at 92.3641 140.97 0)
+    (property "Reference" "UA11" (at 92.3641 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS541" (at 92.3641 143.51 0)
@@ -2686,7 +2686,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ef850a34-fb31-4ec2-8b90-4e6ea535ae17"
-          (reference "A11") (unit 1)
+          (reference "UA11") (unit 1)
         )
       )
     )
@@ -3074,7 +3074,7 @@
   (symbol (lib_id "74xx:74LS04") (at 38.1 93.98 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad63826b-772e-4006-857a-0392324d0ed4)
-    (property "Reference" "F16" (at 38.1 85.09 0)
+    (property "Reference" "UF16" (at 38.1 85.09 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS04" (at 38.1 87.63 0)
@@ -3103,7 +3103,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ef850a34-fb31-4ec2-8b90-4e6ea535ae17"
-          (reference "F16") (unit 2)
+          (reference "UF16") (unit 2)
         )
       )
     )
@@ -3200,12 +3200,12 @@
   )
 
   (symbol (lib_id "Timer:LM556") (at 203.2 50.8 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid c2bc216f-11d0-4f5f-a482-e5a242c18fac)
-    (property "Reference" "C7" (at 205.2194 39.4802 0)
+    (property "Reference" "UC7" (at 205.74 38.735 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LM556" (at 205.2194 42.0171 0)
+    (property "Value" "LM556" (at 205.74 41.275 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 203.2 50.8 0)
@@ -3231,7 +3231,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ef850a34-fb31-4ec2-8b90-4e6ea535ae17"
-          (reference "C7") (unit 1)
+          (reference "UC7") (unit 1)
         )
       )
     )
@@ -3391,12 +3391,12 @@
   )
 
   (symbol (lib_id "Timer:LM556") (at 203.2 109.22 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid eff48b84-251a-4d85-addb-fdfc78023c00)
-    (property "Reference" "C7" (at 205.2194 97.9002 0)
+    (property "Reference" "UC7" (at 205.74 97.155 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "LM556" (at 205.2194 100.4371 0)
+    (property "Value" "LM556" (at 205.74 99.695 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 203.2 109.22 0)
@@ -3422,7 +3422,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ef850a34-fb31-4ec2-8b90-4e6ea535ae17"
-          (reference "C7") (unit 2)
+          (reference "UC7") (unit 2)
         )
       )
     )

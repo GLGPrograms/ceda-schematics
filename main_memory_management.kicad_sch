@@ -4028,12 +4028,12 @@
   )
 
   (symbol (lib_id "74xx:74LS08") (at 152.4 85.09 0) (mirror x) (unit 4) (convert 2)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 009f8f7b-daa1-4354-b72c-0e88a6a7da1a)
-    (property "Reference" "L3" (at 152.3917 92.71 0)
+    (property "Reference" "UL3" (at 152.4 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS08" (at 152.3917 90.17 0)
+    (property "Value" "74LS08" (at 152.4 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 152.4 85.09 0)
@@ -4059,7 +4059,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L3") (unit 4)
+          (reference "UL3") (unit 4)
         )
       )
     )
@@ -4094,10 +4094,10 @@
   (symbol (lib_id "74xx:74LS32") (at 193.04 137.16 0) (unit 2) (convert 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1eacf51b-0494-46ec-925d-60c13f3b9be2)
-    (property "Reference" "L5" (at 193.04 129.54 0)
+    (property "Reference" "UL5" (at 193.0317 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS32" (at 193.04 132.08 0)
+    (property "Value" "74LS32" (at 193.0317 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 193.04 137.16 0)
@@ -4123,7 +4123,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L5") (unit 2)
+          (reference "UL5") (unit 2)
         )
       )
     )
@@ -4157,7 +4157,7 @@
   (symbol (lib_id "74xx:74LS20") (at 265.43 102.87 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 22b38be3-7edc-4fcc-b48d-304b0fa0e8e0)
-    (property "Reference" "L4" (at 265.4203 93.98 0)
+    (property "Reference" "UL4" (at 265.4203 93.98 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS20" (at 265.4203 96.52 0)
@@ -4184,19 +4184,19 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L4") (unit 2)
+          (reference "UL4") (unit 2)
         )
       )
     )
   )
 
   (symbol (lib_id "74xx:74LS04") (at 236.22 101.6 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a4655dd-9f35-441c-b990-5c6d27a5f661)
-    (property "Reference" "H1" (at 236.22 93.98 0)
+    (property "Reference" "UH1" (at 238.76 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS04" (at 236.22 96.52 0)
+    (property "Value" "74LS04" (at 238.76 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 236.22 101.6 0)
@@ -4222,7 +4222,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "H1") (unit 2)
+          (reference "UH1") (unit 2)
         )
       )
     )
@@ -4257,10 +4257,10 @@
   (symbol (lib_id "74xx:74LS20") (at 218.44 101.6 0) (unit 1) (convert 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d04b1cd-1a15-4f71-88ca-39ccb7b08507)
-    (property "Reference" "L4" (at 218.4303 92.71 0)
+    (property "Reference" "UL4" (at 218.44 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS20" (at 218.4303 95.25 0)
+    (property "Value" "74LS20" (at 218.44 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 218.44 101.6 0)
@@ -4284,7 +4284,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L4") (unit 1)
+          (reference "UL4") (unit 1)
         )
       )
     )
@@ -4293,7 +4293,7 @@
   (symbol (lib_id "74xx:74LS32") (at 152.4 134.62 0) (unit 4) (convert 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ffedeec-d83e-43c6-95b8-97e965409da2)
-    (property "Reference" "L5" (at 152.4 127 0)
+    (property "Reference" "UL5" (at 152.4 127 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74LS32" (at 152.4 129.54 0)
@@ -4322,19 +4322,19 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L5") (unit 4)
+          (reference "UL5") (unit 4)
         )
       )
     )
   )
 
   (symbol (lib_id "74xx:74LS00") (at 143.51 100.33 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 32cb7794-bca0-4f6c-ac72-37f6f5a0db2e)
-    (property "Reference" "L8" (at 143.5017 92.71 0)
+    (property "Reference" "UL8" (at 143.51 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS00" (at 143.5017 95.25 0)
+    (property "Value" "74LS00" (at 143.51 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 143.51 100.33 0)
@@ -4360,7 +4360,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L8") (unit 3)
+          (reference "UL8") (unit 3)
         )
       )
     )
@@ -4369,7 +4369,7 @@
   (symbol (lib_id "74xx:74LS138") (at 214.63 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 36f85a54-3d77-4703-9fdf-921c475f76ca)
-    (property "Reference" "L2" (at 216.5859 26.67 0)
+    (property "Reference" "UL2" (at 216.5859 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "74LS138" (at 216.5859 29.21 0)
@@ -4400,7 +4400,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L2") (unit 1)
+          (reference "UL2") (unit 1)
         )
       )
     )
@@ -4409,10 +4409,10 @@
   (symbol (lib_id "74xx:74LS08") (at 35.56 160.02 0) (unit 3) (convert 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f062f24-ee2d-4130-b6f5-a9e51cfb00fa)
-    (property "Reference" "L3" (at 35.5517 152.4 0)
+    (property "Reference" "UL3" (at 35.56 151.13 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS08" (at 35.5517 154.94 0)
+    (property "Value" "74LS08" (at 35.56 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 35.56 160.02 0)
@@ -4438,7 +4438,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L3") (unit 3)
+          (reference "UL3") (unit 3)
         )
       )
     )
@@ -4498,7 +4498,7 @@
   (symbol (lib_id "Memory_EPROM:27C64") (at 50.8 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ba74126-7db8-41f5-a84e-2fde72e37c3f)
-    (property "Reference" "U18" (at 52.9941 22.86 0)
+    (property "Reference" "UH4" (at 52.9941 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "27C64" (at 52.9941 25.4 0)
@@ -4541,7 +4541,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "U18") (unit 1)
+          (reference "UH4") (unit 1)
         )
       )
     )
@@ -4625,12 +4625,12 @@
   )
 
   (symbol (lib_id "74xx:74LS14") (at 148.59 162.56 0) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a66da1e-59e3-4541-9639-a4ef73e9dd30)
-    (property "Reference" "L7" (at 148.59 154.94 0)
+    (property "Reference" "UL7" (at 151.13 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS14" (at 148.59 157.48 0)
+    (property "Value" "7414" (at 151.13 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 148.59 162.56 0)
@@ -4656,7 +4656,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L7") (unit 4)
+          (reference "UL7") (unit 4)
         )
       )
     )
@@ -4688,12 +4688,12 @@
   )
 
   (symbol (lib_id "74xx:74LS04") (at 236.22 85.09 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7966ac29-8e32-4baf-afdc-2a2bd2613c50)
-    (property "Reference" "H1" (at 236.22 77.47 0)
+    (property "Reference" "UH1" (at 238.76 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS04" (at 236.22 80.01 0)
+    (property "Value" "74LS04" (at 238.76 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 236.22 85.09 0)
@@ -4719,7 +4719,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "H1") (unit 3)
+          (reference "UH1") (unit 3)
         )
       )
     )
@@ -4828,12 +4828,12 @@
   )
 
   (symbol (lib_id "74xx:74LS14") (at 157.48 48.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 9d11aa9e-6035-42a5-b4ed-b8f4cc7099cb)
-    (property "Reference" "L7" (at 157.48 40.64 0)
+    (property "Reference" "UL7" (at 158.75 41.91 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS14" (at 157.48 43.18 0)
+    (property "Value" "7414" (at 158.75 44.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 157.48 48.26 0)
@@ -4859,7 +4859,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L7") (unit 1)
+          (reference "UL7") (unit 1)
         )
       )
     )
@@ -5066,12 +5066,12 @@
   )
 
   (symbol (lib_id "74xx:74LS14") (at 107.95 162.56 0) (unit 5)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid be1a7eaf-4ee1-4937-9b98-ab43262b55de)
-    (property "Reference" "L7" (at 107.95 154.94 0)
+    (property "Reference" "UL7" (at 110.49 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS14" (at 107.95 157.48 0)
+    (property "Value" "7414" (at 110.49 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 107.95 162.56 0)
@@ -5097,7 +5097,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L7") (unit 5)
+          (reference "UL7") (unit 5)
         )
       )
     )
@@ -5155,12 +5155,12 @@
   )
 
   (symbol (lib_id "74xx:74LS14") (at 132.08 162.56 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid c1b49931-b515-4ff7-8176-188f1f736f3f)
-    (property "Reference" "L7" (at 132.08 154.94 0)
+    (property "Reference" "UL7" (at 134.62 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS14" (at 132.08 157.48 0)
+    (property "Value" "7414" (at 134.62 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 132.08 162.56 0)
@@ -5186,7 +5186,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L7") (unit 3)
+          (reference "UL7") (unit 3)
         )
       )
     )
@@ -5195,10 +5195,10 @@
   (symbol (lib_id "74xx:74LS32") (at 59.69 162.56 0) (unit 1) (convert 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c96acc67-f66b-46b4-9511-8d14bcc1076f)
-    (property "Reference" "L3" (at 59.6817 154.94 0)
+    (property "Reference" "UL5" (at 59.6817 153.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS32" (at 59.6817 157.48 0)
+    (property "Value" "74LS32" (at 59.6817 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 59.69 162.56 0)
@@ -5224,19 +5224,19 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L3") (unit 1)
+          (reference "UL5") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "74xx:74LS00") (at 118.11 102.87 0) (mirror x) (unit 4)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid cab1eb69-ac82-4929-8b8c-01c17fcf6746)
-    (property "Reference" "L8" (at 118.1017 95.25 0)
+    (property "Reference" "UL8" (at 118.11 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS00" (at 118.1017 97.79 0)
+    (property "Value" "74LS00" (at 118.11 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 118.11 102.87 0)
@@ -5262,7 +5262,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L8") (unit 4)
+          (reference "UL8") (unit 4)
         )
       )
     )
@@ -5347,10 +5347,10 @@
   (symbol (lib_id "74xx:74LS08") (at 173.99 87.63 0) (unit 2) (convert 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3f098db-1bc3-490b-bc82-2e4e318ce591)
-    (property "Reference" "L3" (at 173.9817 80.01 0)
+    (property "Reference" "UL3" (at 173.99 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS08" (at 173.9817 82.55 0)
+    (property "Value" "74LS08" (at 173.99 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 173.99 87.63 0)
@@ -5376,19 +5376,19 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L3") (unit 2)
+          (reference "UL3") (unit 2)
         )
       )
     )
   )
 
   (symbol (lib_id "74xx:74LS14") (at 85.09 162.56 0) (unit 2)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid ef17d458-3ccd-4a06-932b-afddabb0dc59)
-    (property "Reference" "L7" (at 85.09 154.94 0)
+    (property "Reference" "UL7" (at 86.36 156.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS14" (at 85.09 157.48 0)
+    (property "Value" "7414" (at 86.36 158.75 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 85.09 162.56 0)
@@ -5414,7 +5414,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L7") (unit 2)
+          (reference "UL7") (unit 2)
         )
       )
     )
@@ -5423,10 +5423,10 @@
   (symbol (lib_id "74xx:74LS08") (at 254 138.43 0) (unit 1) (convert 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f25187ad-395a-4db2-917e-babfecaa07d5)
-    (property "Reference" "L3" (at 254 130.81 0)
+    (property "Reference" "UL3" (at 254 129.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "74LS08" (at 254 133.35 0)
+    (property "Value" "74LS08" (at 254 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 254 138.43 0)
@@ -5452,7 +5452,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-          (reference "L3") (unit 1)
+          (reference "UL3") (unit 1)
         )
       )
     )
