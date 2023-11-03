@@ -1331,6 +1331,58 @@
         )
       )
     )
+    (symbol "power:+5V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+5V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+5V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+5V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1367,58 +1419,6 @@
       (symbol "GND_1_1"
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -2282,14 +2282,14 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 171.45 132.08 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 171.45 132.08 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b12c81f-af2a-4545-b47f-dc7e2eccd6fa)
-    (property "Reference" "#PWR0183" (at 175.26 132.08 0)
+    (property "Reference" "#PWR?" (at 175.26 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 170.18 129.54 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "+5V" (at 167.64 132.08 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 171.45 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2301,7 +2301,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-          (reference "#PWR0183") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2332,13 +2332,13 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 40.64 71.12 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 40.64 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d2c484e-3a46-4211-852c-d4b4069e05ce)
-    (property "Reference" "#PWR0185" (at 40.64 74.93 0)
+    (property "Reference" "#PWR?" (at 40.64 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 40.64 67.5442 0)
+    (property "Value" "+5V" (at 40.64 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 40.64 71.12 0)
@@ -2351,7 +2351,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-          (reference "#PWR0185") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2407,13 +2407,13 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 229.87 127 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 229.87 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 660c367a-ab78-4ce1-a53d-7b9ba1fb04c6)
-    (property "Reference" "#PWR0178" (at 229.87 130.81 0)
+    (property "Reference" "#PWR?" (at 229.87 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 229.87 123.4242 0)
+    (property "Value" "+5V" (at 229.87 123.444 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 229.87 127 0)
@@ -2426,7 +2426,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-          (reference "#PWR0178") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2532,14 +2532,14 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 156.21 26.67 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 156.21 26.67 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fe5da37-f255-43aa-869a-cd0e477981eb)
-    (property "Reference" "#PWR0179" (at 160.02 26.67 0)
+    (property "Reference" "#PWR?" (at 160.02 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 154.94 24.13 90)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "+5V" (at 152.4 26.67 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 156.21 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2551,7 +2551,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-          (reference "#PWR0179") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -2608,13 +2608,13 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 60.96 71.12 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 60.96 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef73e9b1-faca-4bc0-97e5-2e34798557ae)
-    (property "Reference" "#PWR0181" (at 60.96 74.93 0)
+    (property "Reference" "#PWR?" (at 60.96 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 60.96 67.5442 0)
+    (property "Value" "+5V" (at 60.96 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 60.96 71.12 0)
@@ -2627,7 +2627,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-          (reference "#PWR0181") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )

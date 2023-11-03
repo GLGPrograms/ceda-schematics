@@ -2396,58 +2396,6 @@
         )
       )
     )
-    (symbol "power:VCC" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "VCC" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"VCC\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "VCC_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "VCC_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
   )
 
   (junction (at 142.24 95.25) (diameter 0) (color 0 0 0 0)
@@ -3663,14 +3611,14 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 260.35 109.22 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 260.35 109.22 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0e2ae767-2d7c-49c8-b3c9-70d5c4589692)
-    (property "Reference" "#PWR099" (at 264.16 109.22 0)
+    (property "Reference" "#PWR?" (at 264.16 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 256.7742 109.22 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "+5V" (at 256.54 109.22 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 260.35 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3682,7 +3630,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -3763,14 +3711,14 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 260.35 118.11 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 260.35 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3961d702-379c-4121-8d73-9376eebf7ba7)
-    (property "Reference" "#PWR0102" (at 264.16 118.11 0)
+    (property "Reference" "#PWR?" (at 264.16 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 256.7742 118.11 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "+5V" (at 256.54 118.11 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 260.35 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -3782,7 +3730,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4069,13 +4017,13 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 223.52 20.32 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:+5V") (at 223.52 20.32 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81d895cb-236e-4124-9173-54b64ca458a6)
-    (property "Reference" "#PWR038" (at 223.52 24.13 0)
+    (property "Reference" "#PWR?" (at 223.52 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 223.52 15.24 0)
+    (property "Value" "+5V" (at 223.52 15.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 223.52 20.32 0)
@@ -4088,7 +4036,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4157,13 +4105,13 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 215.9 138.43 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 215.9 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b5232ab-ef71-486a-9bf3-709298e395af)
-    (property "Reference" "#PWR098" (at 215.9 142.24 0)
+    (property "Reference" "#PWR?" (at 215.9 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 215.9 134.8542 0)
+    (property "Value" "+5V" (at 215.9 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 215.9 138.43 0)
@@ -4176,7 +4124,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4220,13 +4168,13 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 215.9 115.57 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 215.9 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9aaed04e-c856-42e0-b486-5a0bbc95827e)
-    (property "Reference" "#PWR0103" (at 215.9 119.38 0)
+    (property "Reference" "#PWR?" (at 215.9 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 215.9 110.49 0)
+    (property "Value" "+5V" (at 215.9 110.49 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 215.9 115.57 0)
@@ -4239,19 +4187,19 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 215.9 82.55 0) (mirror y) (unit 1)
+  (symbol (lib_id "power:+5V") (at 215.9 82.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a1469e32-44f9-4e22-8cb2-2646be9d4569)
-    (property "Reference" "#PWR0105" (at 215.9 86.36 0)
+    (property "Reference" "#PWR?" (at 215.9 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 215.9 77.47 0)
+    (property "Value" "+5V" (at 215.9 77.47 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 215.9 82.55 0)
@@ -4264,7 +4212,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4329,13 +4277,13 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 59.055 24.13 0) (unit 1)
+  (symbol (lib_id "power:+5V") (at 59.055 24.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acd3b74a-4ce0-4828-b235-d3353f238170)
-    (property "Reference" "#PWR0175" (at 59.055 27.94 0)
+    (property "Reference" "#PWR?" (at 59.055 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 59.055 20.5542 0)
+    (property "Value" "+5V" (at 59.055 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 59.055 24.13 0)
@@ -4348,7 +4296,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR0175") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4456,14 +4404,14 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 260.35 101.6 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 260.35 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b6d2b5a8-125e-4f60-81a2-a12d22af44e6)
-    (property "Reference" "#PWR0100" (at 264.16 101.6 0)
+    (property "Reference" "#PWR?" (at 264.16 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 256.7742 101.6 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "+5V" (at 256.54 101.6 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 260.35 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4475,7 +4423,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -4652,14 +4600,14 @@
     )
   )
 
-  (symbol (lib_id "power:VCC") (at 260.35 127 90) (unit 1)
+  (symbol (lib_id "power:+5V") (at 260.35 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f91d35af-7c30-4949-8774-598bdc5a7374)
-    (property "Reference" "#PWR0101" (at 264.16 127 0)
+    (property "Reference" "#PWR?" (at 264.16 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VCC" (at 256.7742 127 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "+5V" (at 256.54 127 90)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 260.35 127 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -4671,7 +4619,7 @@
     (instances
       (project "ceda"
         (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/23c42ab9-740a-4e84-88f1-9f74965e7273"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR?") (unit 1)
         )
       )
     )
