@@ -1029,7 +1029,7 @@
         (name "D7" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin power_in line (at 0 -28.575 90) (length 2.54)
+      (pin power_in line (at 0 -29.21 90) (length 2.54)
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1051,7 +1051,7 @@
       )
     )
     (symbol "Z8430_0_1"
-      (rectangle (start -11.43 24.13) (end 12.7 -26.035)
+      (rectangle (start -11.43 24.13) (end 12.7 -26.67)
         (stroke (width 0) (type default))
         (fill (type background))
       )
