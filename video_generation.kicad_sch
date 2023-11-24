@@ -5,10 +5,12 @@
   (paper "A3")
 
   (title_block
-    (title "Video Generation")
+    (title "CEDA - Sanco 8003 schematics")
     (date "2022-05-29")
     (rev "05")
-    (comment 1 "retrofficina.glgprograms.it")
+    (company "Logic Systems Int'l Inc")
+    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+    (comment 4 "Video Generation")
   )
 
   (lib_symbols

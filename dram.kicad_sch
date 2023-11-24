@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CEDA - Sanco 8003 schematics")
+    (rev "05")
+    (company "Logic Systems Int'l Inc")
+    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+    (comment 3 "Dynamic RAM addressing and parity handling")
+    (comment 4 "DRAM")
+  )
+
   (lib_symbols
     (symbol "+5V_1" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)

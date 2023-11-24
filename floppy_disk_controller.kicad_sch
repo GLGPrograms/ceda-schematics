@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "CEDA - Sanco 8003 schematics")
+    (rev "05")
+    (company "Logic Systems Int'l Inc")
+    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+    (comment 4 "Floppy Disk Controller")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS00" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)

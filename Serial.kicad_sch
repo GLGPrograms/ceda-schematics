@@ -5,11 +5,13 @@
   (paper "A4")
 
   (title_block
-    (title "FPX-290")
+    (title "CEDA - Sanco 8003 schematics")
     (rev "05")
     (company "Logic Systems Int'l Inc")
-    (comment 1 "Serial IO module")
-    (comment 2 "Keyboard, RS-232 compliant port, PRNT port")
+    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+    (comment 2 "an RS232C compliant serial port, a bidirectional parallel port and a further serial port")
+    (comment 3 "Four I/O ports are available: a keyboard port, which is a TTL bidirectional serial, ")
+    (comment 4 "Keyboard, RS-232, parallel port")
   )
 
   (lib_symbols
