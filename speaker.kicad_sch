@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CEDA - Sanco 8003 schematics")
+    (rev "05")
+    (company "Logic Systems Int'l Inc")
+    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+    (comment 3 "Decode the Z80 I/O addressing space")
+    (comment 4 "I/O Space")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS04" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)

@@ -5,8 +5,13 @@
   (paper "A4")
 
   (title_block
-    (title "Daughter Board")
+    (title "CEDA - Sanco 8003 schematics")
     (date "2023-02-26")
+    (rev "05")
+    (company "Logic Systems Int'l Inc")
+    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+    (comment 3 "I/O interface to the peripherals")
+    (comment 4 "Daughterboard")
   )
 
   (lib_symbols
@@ -1808,7 +1813,7 @@
     (uuid 0ba8a12a-cf6c-4146-bace-7d57a62588a2)
   )
   (text "Female Connectors on Daughter Board\n(socket side / computer exterior)"
-    (at 200.66 182.88 0)
+    (at 173.99 115.57 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 16150631-3eaa-4fe7-b258-c8b949ba8916)
   )

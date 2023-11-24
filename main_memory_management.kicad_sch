@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CEDA - Sanco 8003 schematics")
+    (rev "05")
+    (company "Logic Systems Int'l Inc")
+    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+    (comment 2 "do some startup tricks with ROM")
+    (comment 3 "Decode the access to the main Z80 addressing space, plus handle DRAM refresh and")
+    (comment 4 "Main Memory Management")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS00" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)

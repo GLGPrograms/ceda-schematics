@@ -4,6 +4,16 @@
 
   (paper "A4")
 
+  (title_block
+    (title "CEDA - Sanco 8003 schematics")
+    (rev "05")
+    (company "Logic Systems Int'l Inc")
+    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+    (comment 2 "control and for parallel port")
+    (comment 3 "The uPD8255 PIO is used for multiple purposes, including bank switching, peripheral")
+    (comment 4 "GPIO")
+  )
+
   (lib_symbols
     (symbol "74xx:74LS04" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 1.27 0)
