@@ -1,241 +1,564 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 12a6dbe3-008d-4c5b-88f6-9f1c816060be)
-
-  (paper "A4")
-
-  (title_block
-    (title "CEDA - Sanco 8003 schematics")
-    (rev "05")
-    (company "Logic Systems Int'l Inc")
-    (comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
-  )
-
-  (lib_symbols
-  )
-
-
-  (text "These schematics have been reverse engineered from a Sanco 8003.\n\nThis is a work in progress. Beware of mistakes. No warranty.\n\nDownload the latest version, consider contributing, and report issues at:\ngithub.com/GLGPrograms/ceda-schematics\nretrofficina.glgprograms.it\n"
-    (at 26.67 116.84 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6332052c-dc10-41d3-8173-207cacda73d2)
-  )
-  (text "Sanco 8003 CEDA Unofficial Schematics" (at 25.4 101.6 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid cb79a5f1-097c-4865-9710-3a8d3c234e82)
-  )
-
-  (sheet (at 214.63 25.4) (size 30.48 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 08d69802-ecbf-4783-8ee3-1052eb874de4)
-    (property "Sheetname" "CTC" (at 214.63 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "ctc.kicad_sch" (at 214.63 47.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "12"))
-      )
-    )
-  )
-
-  (sheet (at 139.7 25.4) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1847fdc4-53d8-4940-8c5f-7a326599bae2)
-    (property "Sheetname" "Z80CPU" (at 139.7 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "z80cpu.kicad_sch" (at 139.7 47.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 214.63 54.61) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 23c42ab9-740a-4e84-88f1-9f74965e7273)
-    (property "Sheetname" "GPIO" (at 214.63 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "GPIO.kicad_sch" (at 214.63 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "6"))
-      )
-    )
-  )
-
-  (sheet (at 176.53 54.61) (size 30.48 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 30cc577a-62cc-4eb0-beb7-81a864bc3256)
-    (property "Sheetname" "FloppyDiskController" (at 176.53 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "floppy_disk_controller.kicad_sch" (at 176.53 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "11"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 54.61) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 3df68a1a-abd3-4ad7-9eb9-855dfc37a3a7)
-    (property "Sheetname" "Video Memory" (at 25.4 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "video_memory.kicad_sch" (at 25.4 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "13"))
-      )
-    )
-  )
-
-  (sheet (at 63.5 54.61) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4f1cc97c-1ae7-488a-96b4-ad54fee0fde4)
-    (property "Sheetname" "DaughterBoard" (at 63.5 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "daughter_board.kicad_sch" (at 63.5 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 101.6 54.61) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba)
-    (property "Sheetname" "MainMemoryManagement" (at 101.6 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "main_memory_management.kicad_sch" (at 101.6 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Campo2" "" (at 101.6 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 25.4) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ce60e45b-d802-4380-8f39-bef3de5fa20e)
-    (property "Sheetname" "VideoGeneration" (at 25.4 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "video_generation.kicad_sch" (at 25.4 47.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 176.53 25.4) (size 30.48 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid d9e42cc5-3ed8-41e5-aab1-e3ef5c13a809)
-    (property "Sheetname" "Reset" (at 176.53 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "reset.kicad_sch" (at 176.53 47.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "10"))
-      )
-    )
-  )
-
-  (sheet (at 63.5 25.4) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid e6a0e8fd-e32c-428e-9a73-cac8f5494d05)
-    (property "Sheetname" "Serial" (at 63.5 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "Serial.kicad_sch" (at 63.5 47.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 101.6 25.4) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ef850a34-fb31-4ec2-8b90-4e6ea535ae17)
-    (property "Sheetname" "IO space" (at 101.6 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "speaker.kicad_sch" (at 101.6 47.5746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "4"))
-      )
-    )
-  )
-
-  (sheet (at 139.7 54.61) (size 29.21 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid f05e0b09-5f96-4638-8985-dbb50d0f6ef2)
-    (property "Sheetname" "DRAM and parity" (at 139.7 53.8984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "dram.kicad_sch" (at 139.7 76.7846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (property "Campo2" "" (at 139.7 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (instances
-      (project "ceda"
-        (path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be" (page "9"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "12a6dbe3-008d-4c5b-88f6-9f1c816060be")
+	(paper "A4")
+	(title_block
+		(title "CEDA - Sanco 8003 schematics")
+		(rev "05")
+		(company "Logic Systems Int'l Inc")
+		(comment 1 "reversed by RetrOfficina - retrofficina.glgprograms.it")
+	)
+	(lib_symbols)
+	(text "These schematics have been reverse engineered from a Sanco 8003.\n\nThis is a work in progress. Beware of mistakes. No warranty.\n\nDownload the latest version, consider contributing, and report issues at:\ngithub.com/GLGPrograms/ceda-schematics\nretrofficina.glgprograms.it\n"
+		(exclude_from_sim no)
+		(at 26.67 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6332052c-dc10-41d3-8173-207cacda73d2")
+	)
+	(text "Sanco 8003 CEDA Unofficial Schematics"
+		(exclude_from_sim no)
+		(at 25.4 101.6 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "cb79a5f1-097c-4865-9710-3a8d3c234e82")
+	)
+	(sheet
+		(at 214.63 25.4)
+		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "08d69802-ecbf-4783-8ee3-1052eb874de4")
+		(property "Sheetname" "CTC"
+			(at 214.63 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ctc.kicad_sch"
+			(at 214.63 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 25.4)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1847fdc4-53d8-4940-8c5f-7a326599bae2")
+		(property "Sheetname" "Z80CPU"
+			(at 139.7 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "z80cpu.kicad_sch"
+			(at 139.7 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 214.63 54.61)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23c42ab9-740a-4e84-88f1-9f74965e7273")
+		(property "Sheetname" "GPIO"
+			(at 214.63 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "GPIO.kicad_sch"
+			(at 214.63 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 54.61)
+		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "30cc577a-62cc-4eb0-beb7-81a864bc3256")
+		(property "Sheetname" "FloppyDiskController"
+			(at 176.53 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "floppy_disk_controller.kicad_sch"
+			(at 176.53 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 54.61)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3df68a1a-abd3-4ad7-9eb9-855dfc37a3a7")
+		(property "Sheetname" "Video Memory"
+			(at 25.4 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "video_memory.kicad_sch"
+			(at 25.4 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 54.61)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f1cc97c-1ae7-488a-96b4-ad54fee0fde4")
+		(property "Sheetname" "DaughterBoard"
+			(at 63.5 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "daughter_board.kicad_sch"
+			(at 63.5 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 54.61)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba")
+		(property "Sheetname" "MainMemoryManagement"
+			(at 101.6 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main_memory_management.kicad_sch"
+			(at 101.6 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Campo2" ""
+			(at 101.6 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ce60e45b-d802-4380-8f39-bef3de5fa20e")
+		(property "Sheetname" "VideoGeneration"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "video_generation.kicad_sch"
+			(at 25.4 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 176.53 25.4)
+		(size 30.48 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d9e42cc5-3ed8-41e5-aab1-e3ef5c13a809")
+		(property "Sheetname" "Reset"
+			(at 176.53 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "reset.kicad_sch"
+			(at 176.53 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 63.5 25.4)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e6a0e8fd-e32c-428e-9a73-cac8f5494d05")
+		(property "Sheetname" "Serial"
+			(at 63.5 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Serial.kicad_sch"
+			(at 63.5 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 25.4)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef850a34-fb31-4ec2-8b90-4e6ea535ae17")
+		(property "Sheetname" "IO space"
+			(at 101.6 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "speaker.kicad_sch"
+			(at 101.6 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 54.61)
+		(size 29.21 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f05e0b09-5f96-4638-8985-dbb50d0f6ef2")
+		(property "Sheetname" "DRAM and parity"
+			(at 139.7 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "dram.kicad_sch"
+			(at 139.7 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Campo2" ""
+			(at 139.7 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )
