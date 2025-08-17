@@ -13089,6 +13089,16 @@
 		)
 		(uuid "87f1a7e9-f0c7-4344-9ca5-5dd1ade2394c")
 	)
+	(label "vmem[10..0]"
+		(at 113.03 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8be8f928-0dee-47e7-9deb-5d89a7918cae")
+	)
 	(label "chmd2"
 		(at 240.03 106.68 180)
 		(effects
