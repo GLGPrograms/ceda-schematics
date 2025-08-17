@@ -9551,7 +9551,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 143.51 172.72 0)
 			(effects
 				(font
@@ -10055,7 +10055,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 161.29 92.71 0)
 			(effects
 				(font
@@ -10161,7 +10161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 196.85 92.71 0)
 			(effects
 				(font
@@ -10467,7 +10467,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 198.12 151.13 0)
 			(effects
 				(font
@@ -10636,7 +10636,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 198.12 127 0)
 			(effects
 				(font
@@ -10870,7 +10870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 81.28 161.29 0)
 			(effects
 				(font
@@ -11039,7 +11039,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 81.28 189.23 0)
 			(effects
 				(font
@@ -11496,7 +11496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-40_W15.24mm"
 			(at 50.165 66.04 0)
 			(effects
 				(font
@@ -11677,7 +11677,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 125.73 170.18 0)
 			(effects
 				(font
@@ -11985,7 +11985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm"
 			(at 201.93 48.26 0)
 			(effects
 				(font
@@ -12108,7 +12108,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 161.29 109.22 0)
 			(effects
 				(font
@@ -12211,7 +12211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
 			(at 81.28 175.26 0)
 			(effects
 				(font
