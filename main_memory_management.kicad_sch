@@ -5270,12 +5270,15 @@
 			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at 0 2.032 0)
@@ -5464,12 +5467,15 @@
 			(embedded_fonts no)
 		)
 		(symbol "Jumper:SolderJumper_2_Open"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
-			(in_bom yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "JP"
 				(at 0 2.032 0)
@@ -6730,8 +6736,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6831,8 +6841,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6852,8 +6861,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6929,8 +6942,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12267,7 +12279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78fe106c-790d-4265-bba7-308bc4f3ab85")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0225"
 			(at 33.02 68.58 0)
 			(effects
 				(font
@@ -12317,7 +12329,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-					(reference "#PWR?")
+					(reference "#PWR0225")
 					(unit 1)
 				)
 			)
@@ -12572,7 +12584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e9d3bdf-cc2d-4c70-bf60-50b67508c6a7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0239"
 			(at 176.53 39.37 0)
 			(effects
 				(font
@@ -12621,7 +12633,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-					(reference "#PWR?")
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -12637,7 +12649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97678202-780d-4b0d-8d1b-dd9860ee30d9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0235"
 			(at 140.97 73.66 0)
 			(effects
 				(font
@@ -12686,7 +12698,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-					(reference "#PWR?")
+					(reference "#PWR0235")
 					(unit 1)
 				)
 			)
@@ -12804,7 +12816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dafe08a-33ef-4b68-a78b-4960dfdfc2cc")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0236"
 			(at 214.63 29.21 0)
 			(effects
 				(font
@@ -12853,7 +12865,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-					(reference "#PWR?")
+					(reference "#PWR0236")
 					(unit 1)
 				)
 			)
@@ -12938,7 +12950,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a83e9125-4586-4994-a5ec-74c868139b1e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0240"
 			(at 144.78 40.64 0)
 			(effects
 				(font
@@ -12987,7 +12999,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-					(reference "#PWR?")
+					(reference "#PWR0240")
 					(unit 1)
 				)
 			)
@@ -13072,7 +13084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abd68cfa-68e6-485c-aea1-1baaaf785113")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0228"
 			(at 50.8 101.6 0)
 			(effects
 				(font
@@ -13121,7 +13133,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-					(reference "#PWR?")
+					(reference "#PWR0228")
 					(unit 1)
 				)
 			)
@@ -13439,7 +13451,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be39913d-acfd-4d10-9b42-ab0a3fe8eb6d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0224"
 			(at 50.8 29.21 0)
 			(effects
 				(font
@@ -13488,7 +13500,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4fdb1b90-7ad1-4fa0-9b13-7b81abbda2ba"
-					(reference "#PWR?")
+					(reference "#PWR0224")
 					(unit 1)
 				)
 			)

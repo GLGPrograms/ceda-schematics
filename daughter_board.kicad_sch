@@ -3563,6 +3563,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "Jumper:Jumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3861,8 +3864,12 @@
 		)
 		(symbol "power:+5V"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3962,8 +3969,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(hide yes)
-					(name "+5V"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3983,8 +3989,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4060,8 +4070,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6329,7 +6338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b12c81f-af2a-4545-b47f-dc7e2eccd6fa")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0223"
 			(at 175.26 132.08 0)
 			(effects
 				(font
@@ -6379,7 +6388,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-					(reference "#PWR?")
+					(reference "#PWR0223")
 					(unit 1)
 				)
 			)
@@ -6460,7 +6469,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d2c484e-3a46-4211-852c-d4b4069e05ce")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0210"
 			(at 40.64 74.93 0)
 			(effects
 				(font
@@ -6509,7 +6518,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-					(reference "#PWR?")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -6654,7 +6663,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "660c367a-ab78-4ce1-a53d-7b9ba1fb04c6")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0214"
 			(at 229.87 130.81 0)
 			(effects
 				(font
@@ -6703,7 +6712,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-					(reference "#PWR?")
+					(reference "#PWR0214")
 					(unit 1)
 				)
 			)
@@ -6988,7 +6997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fe5da37-f255-43aa-869a-cd0e477981eb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0208"
 			(at 160.02 26.67 0)
 			(effects
 				(font
@@ -7038,7 +7047,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-					(reference "#PWR?")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -7188,7 +7197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef73e9b1-faca-4bc0-97e5-2e34798557ae")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0212"
 			(at 60.96 74.93 0)
 			(effects
 				(font
@@ -7237,7 +7246,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-					(reference "#PWR?")
+					(reference "#PWR0212")
 					(unit 1)
 				)
 			)
