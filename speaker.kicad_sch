@@ -5782,6 +5782,16 @@
 		)
 		(uuid "306e513c-8e93-4b42-9a59-e6dcc53eeed1")
 	)
+	(label "D5"
+		(at 104.14 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "30afdd35-b1d3-4bb3-a3ae-572f340a08f5")
+	)
 	(label "D0"
 		(at 104.14 148.59 0)
 		(effects
@@ -5792,6 +5802,16 @@
 		)
 		(uuid "3280f84e-fc46-4e25-86f6-21926a238c2b")
 	)
+	(label "D2"
+		(at 104.14 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "360df6c8-c49b-4972-88f7-50c250fdb5ef")
+	)
 	(label "~{SPEAKER_CS}"
 		(at 175.26 45.72 0)
 		(effects
@@ -5801,6 +5821,16 @@
 			(justify left bottom)
 		)
 		(uuid "3a954ada-7db3-42d7-a952-60b6b457b66e")
+	)
+	(label "D7"
+		(at 104.14 166.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3dfbb785-3133-4067-8e25-d373ca33e81b")
 	)
 	(label "A7"
 		(at 59.69 45.72 0)
@@ -5822,6 +5852,16 @@
 		)
 		(uuid "43b8dda8-57d0-4cd2-a8d4-d7a62ef56122")
 	)
+	(label "D4"
+		(at 104.14 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44fa27a6-e22e-421d-bc1f-927acda02662")
+	)
 	(label "~{DIPSW_CS}"
 		(at 67.31 171.45 0)
 		(effects
@@ -5841,6 +5881,26 @@
 			(justify left bottom)
 		)
 		(uuid "4737fd43-16de-41f2-b7fc-c68ba91d6deb")
+	)
+	(label "D3"
+		(at 104.14 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4891dede-e866-41aa-a447-7fbe9a58998a")
+	)
+	(label "D1"
+		(at 104.14 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5336c9ee-5a37-4b25-ad0e-daa729db658e")
 	)
 	(label "A1"
 		(at 59.69 81.28 0)
@@ -5872,68 +5932,8 @@
 		)
 		(uuid "b3186381-3e7b-49e2-be3e-d2a78edf887d")
 	)
-	(label "D5"
-		(at 104.14 161.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b945cd74-0533-4e60-a857-6f25586972c6")
-	)
-	(label "D4"
-		(at 104.14 158.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b945cd74-0533-4e60-a857-6f25586972c6")
-	)
 	(label "D6"
 		(at 104.14 163.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b945cd74-0533-4e60-a857-6f25586972c6")
-	)
-	(label "D3"
-		(at 104.14 156.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b945cd74-0533-4e60-a857-6f25586972c6")
-	)
-	(label "D7"
-		(at 104.14 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b945cd74-0533-4e60-a857-6f25586972c6")
-	)
-	(label "D1"
-		(at 104.14 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b945cd74-0533-4e60-a857-6f25586972c6")
-	)
-	(label "D2"
-		(at 104.14 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7442,7 +7442,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63a8299c-2ac2-4637-b1df-0f022bdb4485")
-		(property "Reference" "SP-Plug"
+		(property "Reference" "SP-Plug1"
 			(at 250.9012 79.1753 0)
 			(effects
 				(font
@@ -7495,7 +7495,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ef850a34-fb31-4ec2-8b90-4e6ea535ae17"
-					(reference "SP-Plug")
+					(reference "SP-Plug1")
 					(unit 1)
 				)
 			)
@@ -8881,7 +8881,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daebda76-6456-47b4-be28-9d345b737d6f")
-		(property "Reference" "SP-Socket"
+		(property "Reference" "SP-Socket1"
 			(at 262.255 77.12 0)
 			(effects
 				(font
@@ -8933,7 +8933,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ef850a34-fb31-4ec2-8b90-4e6ea535ae17"
-					(reference "SP-Socket")
+					(reference "SP-Socket1")
 					(unit 1)
 				)
 			)

@@ -7151,7 +7151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e14e3c-564f-46d1-97db-c614eb7871fd")
-		(property "Reference" "J?"
+		(property "Reference" "J5"
 			(at 270.51 54.61 0)
 			(effects
 				(font
@@ -7216,7 +7216,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "J?")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -8932,7 +8932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1ff7cfb-d99d-4638-98b9-4bd1cf188028")
-		(property "Reference" "JP?"
+		(property "Reference" "JP3"
 			(at 118.11 171.4499 90)
 			(effects
 				(font
@@ -8985,7 +8985,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "JP?")
+					(reference "JP3")
 					(unit 1)
 				)
 			)

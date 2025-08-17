@@ -12589,7 +12589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b4854ed-b7f0-456c-9f2b-45056b4941da")
-		(property "Reference" "UK?"
+		(property "Reference" "UK2"
 			(at 74.5841 22.86 0)
 			(effects
 				(font
@@ -12684,7 +12684,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "UK?")
+					(reference "UK2")
 					(unit 1)
 				)
 			)
@@ -12706,7 +12706,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c5711fb-6994-4b3c-8e94-ec58736319b9")
-		(property "Reference" "UK?"
+		(property "Reference" "UK8"
 			(at 272.7041 22.86 0)
 			(effects
 				(font
@@ -12801,7 +12801,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "UK?")
+					(reference "UK8")
 					(unit 1)
 				)
 			)
@@ -13063,7 +13063,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4224b608-4d7d-43b5-9fd8-fb7f78d54d30")
-		(property "Reference" "UK?"
+		(property "Reference" "UK5"
 			(at 173.6441 22.86 0)
 			(effects
 				(font
@@ -13158,7 +13158,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "UK?")
+					(reference "UK5")
 					(unit 1)
 				)
 			)
@@ -14137,7 +14137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b26f30a-64f6-4722-a711-c8586dabfff1")
-		(property "Reference" "UK?"
+		(property "Reference" "UK6"
 			(at 206.6641 22.86 0)
 			(effects
 				(font
@@ -14232,7 +14232,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "UK?")
+					(reference "UK6")
 					(unit 1)
 				)
 			)
@@ -14657,7 +14657,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5339ba6-8897-4ac6-a4ee-7825fd1e7528")
-		(property "Reference" "UK?"
+		(property "Reference" "UK7"
 			(at 239.6841 22.86 0)
 			(effects
 				(font
@@ -14752,7 +14752,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "UK?")
+					(reference "UK7")
 					(unit 1)
 				)
 			)
@@ -14948,7 +14948,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72a7e01-2b3f-4e88-b092-dc8104d42bc2")
-		(property "Reference" "UK?"
+		(property "Reference" "UK4"
 			(at 140.6241 22.86 0)
 			(effects
 				(font
@@ -15043,7 +15043,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "UK?")
+					(reference "UK4")
 					(unit 1)
 				)
 			)
@@ -15207,7 +15207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdee6ba1-acaa-4a5f-bdbf-27a7a8184846")
-		(property "Reference" "UK?"
+		(property "Reference" "UK3"
 			(at 107.6041 22.86 0)
 			(effects
 				(font
@@ -15302,7 +15302,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "UK?")
+					(reference "UK3")
 					(unit 1)
 				)
 			)
@@ -15907,7 +15907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7c5189c-421a-4661-ada2-b4c524ac2933")
-		(property "Reference" "UK?"
+		(property "Reference" "UK1"
 			(at 41.5641 22.86 0)
 			(effects
 				(font
@@ -16002,7 +16002,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "UK?")
+					(reference "UK1")
 					(unit 1)
 				)
 			)
@@ -16024,7 +16024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e871d9b5-6d32-42d9-bb85-dc5a4eaaefd0")
-		(property "Reference" "PARITY"
+		(property "Reference" "PARITY1"
 			(at 270.51 119.0625 90)
 			(effects
 				(font
@@ -16086,7 +16086,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "PARITY")
+					(reference "PARITY1")
 					(unit 1)
 				)
 			)

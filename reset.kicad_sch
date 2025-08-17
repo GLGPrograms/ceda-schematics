@@ -9222,7 +9222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e46c87ba-e654-4e34-b865-4ee63e68523c")
-		(property "Reference" "XTAL3"
+		(property "Reference" "XTAL1"
 			(at 43.18 177.8 0)
 			(effects
 				(font
@@ -9273,7 +9273,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/d9e42cc5-3ed8-41e5-aab1-e3ef5c13a809"
-					(reference "XTAL3")
+					(reference "XTAL1")
 					(unit 1)
 				)
 			)

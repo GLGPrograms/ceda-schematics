@@ -20588,7 +20588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "225339c9-5a49-4250-93d7-65b6180a4f20")
-		(property "Reference" "TP?"
+		(property "Reference" "TP5"
 			(at 367.157 50.7273 0)
 			(effects
 				(font
@@ -20638,7 +20638,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
-					(reference "TP?")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -20654,8 +20654,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235c39d0-7333-4a55-8d7b-f911192dc14a")
-		(property "Reference" "R71"
-			(at 381.508 116.0053 0)
+		(property "Reference" "R39"
+			(at 382.27 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20664,7 +20664,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 381.508 118.5422 0)
+			(at 382.27 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20707,7 +20707,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
-					(reference "R71")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -20958,7 +20958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26df4262-01d6-450f-a4a4-86dcb97a282b")
-		(property "Reference" "TP?"
+		(property "Reference" "TP4"
 			(at 91.44 235.458 0)
 			(effects
 				(font
@@ -21008,7 +21008,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
-					(reference "TP?")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -23555,7 +23555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "751ea553-10b6-4bcf-a8bf-5eabcf2623d3")
-		(property "Reference" "RCK"
+		(property "Reference" "RCK1"
 			(at 382.905 223.9553 0)
 			(effects
 				(font
@@ -23608,7 +23608,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
-					(reference "RCK")
+					(reference "RCK1")
 					(unit 1)
 				)
 			)
@@ -28370,7 +28370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e582a31c-3ec3-45a4-97da-704124c96bfc")
-		(property "Reference" "J?"
+		(property "Reference" "J3"
 			(at 373.38 189.3402 0)
 			(effects
 				(font
@@ -28451,7 +28451,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
-					(reference "J?")
+					(reference "J3")
 					(unit 1)
 				)
 			)

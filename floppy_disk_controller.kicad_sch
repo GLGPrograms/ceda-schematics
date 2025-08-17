@@ -18556,8 +18556,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d24c736-b175-469b-b25a-c51e6581c297")
-		(property "Reference" "R1"
-			(at -46.99 161.29 0)
+		(property "Reference" "R41"
+			(at -46.99 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18566,7 +18566,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at -46.99 163.83 0)
+			(at -46.99 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18609,7 +18609,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "R1")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -19416,8 +19416,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cb89e2e-d4f5-4626-bf5e-2f061d5ed994")
-		(property "Reference" "D2"
-			(at -3.81 241.3 90)
+		(property "Reference" "D4"
+			(at -3.81 241.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19426,7 +19426,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at -3.81 243.84 90)
+			(at -3.81 243.8399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19487,7 +19487,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "D2")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -21821,8 +21821,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e863782-eeb4-4057-92e9-f389e5b75067")
-		(property "Reference" "R2"
-			(at -46.99 172.72 0)
+		(property "Reference" "R46"
+			(at -46.99 172.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21831,7 +21831,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at -46.99 175.26 0)
+			(at -46.99 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21874,7 +21874,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "R2")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -22779,7 +22779,7 @@
 		(fields_autoplaced yes)
 		(uuid "b36cdc0c-e1dd-4b82-9b54-5826160c4bdd")
 		(property "Reference" "C11"
-			(at 65.405 144.78 90)
+			(at 65.405 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22787,7 +22787,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 65.405 147.32 90)
+			(at 65.405 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22845,7 +22845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bad17db8-88d4-4751-88e9-2160706b105d")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 15.24 259.08 90)
 			(effects
 				(font
@@ -22896,7 +22896,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -23098,7 +23098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc1900ce-7992-4081-aad8-6baaebcba5f9")
-		(property "Reference" "R5"
+		(property "Reference" "R48"
 			(at 24.13 138.43 90)
 			(effects
 				(font
@@ -23149,7 +23149,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "R5")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -23464,9 +23464,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d201c85a-f8f7-4edf-b497-15b150048e68")
-		(property "Reference" "C12"
+		(property "Reference" "C17"
 			(at 135.89 163.83 90)
 			(effects
 				(font
@@ -23517,7 +23516,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "C12")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -24060,7 +24059,7 @@
 		(fields_autoplaced yes)
 		(uuid "de5e831b-2383-4b7d-8825-ac8152da359b")
 		(property "Reference" "D1"
-			(at -3.81 252.73 90)
+			(at -3.81 252.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24069,7 +24068,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at -3.81 255.27 90)
+			(at -3.81 255.2699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24513,8 +24512,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eafe9495-6dc6-4d44-9fbf-a2ee15afa343")
-		(property "Reference" "R3"
-			(at -3.81 161.29 0)
+		(property "Reference" "R47"
+			(at -2.54 161.2899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24523,7 +24522,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at -3.81 163.83 0)
+			(at -2.54 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24566,7 +24565,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "R3")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -25168,7 +25167,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3f67654-6c1e-4bbb-9ed3-04efd7a0db39")
-		(property "Reference" "C10"
+		(property "Reference" "C7"
 			(at 22.86 243.84 90)
 			(effects
 				(font
@@ -25219,7 +25218,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "C10")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -25302,7 +25301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc275568-6999-47b4-9b32-38545641855a")
-		(property "Reference" "C9"
+		(property "Reference" "C16"
 			(at -24.13 160.02 90)
 			(effects
 				(font
@@ -25353,7 +25352,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "C9")
+					(reference "C16")
 					(unit 1)
 				)
 			)
