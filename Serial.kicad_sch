@@ -6630,7 +6630,7 @@
 			)
 		)
 	)
-	(global_label "A"
+	(global_label "A[15..0]"
 		(shape input)
 		(at 29.21 82.55 180)
 		(fields_autoplaced yes)
@@ -6642,7 +6642,7 @@
 		)
 		(uuid "a3d1a533-e966-403e-813f-37a2d697c779")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.1362 82.55 0)
+			(at 18.6047 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6816,7 +6816,7 @@
 			)
 		)
 	)
-	(global_label "D"
+	(global_label "D[7..0]"
 		(shape bidirectional)
 		(at 29.21 39.37 180)
 		(fields_autoplaced yes)
@@ -6828,7 +6828,7 @@
 		)
 		(uuid "f3db9089-0da0-48fe-b172-22d6a4767595")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 23.8435 39.37 0)
+			(at 18.5215 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)

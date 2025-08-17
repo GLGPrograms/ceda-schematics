@@ -7827,7 +7827,7 @@
 		)
 		(uuid "4590347f-ee14-4982-8535-be2e894c6cff")
 	)
-	(text "~{RD|WR}. Can't use ~{IOREQ}\nbecause WR is asserted\none clock cycle later."
+	(text "~{RD|WR}. Can't use ~{IORQ}\nbecause WR is asserted\none clock cycle later."
 		(exclude_from_sim no)
 		(at 120.65 215.9 0)
 		(effects
@@ -7905,6 +7905,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b343779-2061-465a-a269-393d7e1f419f")
+	)
+	(junction
+		(at 124.46 218.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d18bce0-8b24-4661-959d-0b956b28a212")
 	)
 	(junction
 		(at 97.79 129.54)
@@ -9101,6 +9107,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 218.44) (xy 120.65 218.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06857d55-5365-4e44-911b-14b1eb5ea591")
+	)
+	(wire
+		(pts
 			(xy 74.93 237.49) (xy 88.9 237.49)
 		)
 		(stroke
@@ -9898,6 +9914,16 @@
 			(type default)
 		)
 		(uuid "3fce0f06-c3ea-4d40-b781-f1959c1126eb")
+	)
+	(wire
+		(pts
+			(xy 124.46 220.98) (xy 125.73 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41316191-88d6-4d4a-9140-a946075c233e")
 	)
 	(wire
 		(pts
@@ -11241,6 +11267,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 218.44) (xy 124.46 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac493167-aaec-4b52-ac3e-81cf806d4bc7")
+	)
+	(wire
+		(pts
 			(xy 335.28 40.64) (xy 321.31 40.64)
 		)
 		(stroke
@@ -12061,7 +12097,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 218.44) (xy 120.65 218.44)
+			(xy 142.24 218.44) (xy 124.46 218.44)
 		)
 		(stroke
 			(width 0)
@@ -12191,7 +12227,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 220.98) (xy 166.37 220.98)
+			(xy 165.1 220.98) (xy 166.37 220.98)
 		)
 		(stroke
 			(width 0)
@@ -13169,16 +13205,6 @@
 		)
 		(uuid "942d41f8-5d8e-429e-9957-51c9d8546c87")
 	)
-	(label "MUXSEL"
-		(at 157.48 220.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97bb8fdd-5cca-4502-8bd5-d3285253f9d6")
-	)
 	(label "vmem9"
 		(at 87.63 154.94 0)
 		(effects
@@ -13799,6 +13825,50 @@
 		)
 		(uuid "fa73353f-f2b0-46db-88c4-110a3788ac75")
 	)
+	(global_label "~{RD|WR}"
+		(shape input)
+		(at 125.73 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b4fda78-ec39-47d4-b1fc-e7c644ce7c7e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 135.1861 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CRTC_CLK}"
+		(shape input)
+		(at 165.1 220.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c51a6b2-faca-4899-a72e-541e30ef8f03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.8015 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{RESET}"
 		(shape input)
 		(at 139.7 267.97 180)
@@ -14019,7 +14089,7 @@
 			)
 		)
 	)
-	(global_label "MREQ"
+	(global_label "~{MREQ}"
 		(shape input)
 		(at 54.61 240.03 180)
 		(fields_autoplaced yes)
@@ -14063,7 +14133,7 @@
 			)
 		)
 	)
-	(global_label "MEM_WR"
+	(global_label "~{MEM_WR}"
 		(shape input)
 		(at 270.51 227.33 180)
 		(fields_autoplaced yes)
@@ -14151,7 +14221,7 @@
 			)
 		)
 	)
-	(global_label "MEM_WR"
+	(global_label "~{MEM_WR}"
 		(shape input)
 		(at 323.85 60.96 0)
 		(fields_autoplaced yes)

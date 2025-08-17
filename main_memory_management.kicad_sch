@@ -7081,7 +7081,7 @@
 	)
 	(text "\n\n\nALT RAM\nROM\nVIDEO RAM"
 		(exclude_from_sim no)
-		(at 264.16 45.72 0)
+		(at 272.796 45.72 0)
 		(effects
 			(font
 				(size 1.6 1.6)
@@ -10136,7 +10136,7 @@
 			)
 		)
 	)
-	(global_label "~{IOREQ}"
+	(global_label "~{IORQ}"
 		(shape input)
 		(at 107.95 91.44 180)
 		(fields_autoplaced yes)
@@ -10198,6 +10198,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{D000_CS}"
+		(shape output)
+		(at 261.62 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "357c08b5-739c-42c7-ba39-36e199c2afd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 272.9508 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

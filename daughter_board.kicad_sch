@@ -4209,6 +4209,14 @@
 		(uuid "6347f232-76f0-43a1-aab2-3405303ea786")
 	)
 	(no_connect
+		(at 248.92 127)
+		(uuid "69470f56-a913-483d-8eb9-5aaffc3c2fe2")
+	)
+	(no_connect
+		(at 233.68 129.54)
+		(uuid "6d22bb2c-09b8-47a9-b52d-d00eb700b790")
+	)
+	(no_connect
 		(at 177.8 62.23)
 		(uuid "86fd6f1d-c4d0-424f-b881-f85e4916e431")
 	)
@@ -4231,6 +4239,10 @@
 	(no_connect
 		(at 248.92 29.21)
 		(uuid "a3083b9e-389b-48a6-87d5-8419d4105cca")
+	)
+	(no_connect
+		(at 233.68 132.08)
+		(uuid "a445bb82-7c4a-495d-805a-c977faa08d57")
 	)
 	(no_connect
 		(at 57.15 127)
@@ -4281,8 +4293,16 @@
 		(uuid "e08ffc78-c5a6-4654-b6c0-c93c3014d426")
 	)
 	(no_connect
+		(at 248.92 129.54)
+		(uuid "e725c6e1-33c6-4d49-bf88-d7fb70f757ec")
+	)
+	(no_connect
 		(at 248.92 26.67)
 		(uuid "eaf3e975-ac81-4a5c-991b-df74b2378567")
+	)
+	(no_connect
+		(at 241.3 137.16)
+		(uuid "f51780e7-3943-47c7-8dc1-2be10be8e04f")
 	)
 	(no_connect
 		(at 248.92 82.55)
@@ -5764,7 +5784,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "006b1c0c-99fc-45cf-ae28-0f109fcc0f52")
 		(property "Reference" "KEYBOARD"
 			(at 242.1889 120.7602 0)
@@ -5773,6 +5792,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Value" "DIN-8"
@@ -5802,8 +5822,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 241.3 129.54 0)
+		(property "Description" "KEYBOARD"
+			(at 247.142 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5851,7 +5871,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "080b93d1-2825-4343-812f-bbef33a831da")
 		(property "Reference" "PRINTER"
 			(at 191.77 57.15 90)
@@ -5859,6 +5878,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "PRINTER"
@@ -5879,7 +5899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 185.42 57.15 0)
 			(effects
 				(font
@@ -5888,8 +5908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 185.42 57.15 0)
+		(property "Description" "PRINTER"
+			(at 191.77 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "290e8ad6-901d-461a-b427-5d77d7d61a59")
-		(property "Reference" "SW1"
+		(property "Reference" "SWD1"
 			(at 115.57 22.86 0)
 			(effects
 				(font
@@ -6322,7 +6342,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/4f1cc97c-1ae7-488a-96b4-ad54fee0fde4"
-					(reference "SW1")
+					(reference "SWD1")
 					(unit 1)
 				)
 			)
@@ -6792,7 +6812,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "90d2f535-4006-4c9e-804a-d97cfa86159b")
 		(property "Reference" "SERIAL"
 			(at 262.3804 57.15 90)
@@ -6800,6 +6819,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "DB25_Female"
@@ -6820,7 +6840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 256.54 57.15 0)
 			(effects
 				(font
@@ -6829,8 +6849,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 256.54 57.15 0)
+		(property "Description" "SERIAL"
+			(at 262.382 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7260,7 +7280,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb1f5312-67fd-4bb9-9338-3f4d343b565f")
 		(property "Reference" "PRNT"
 			(at 190.4999 123.2972 0)
@@ -7268,6 +7287,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "DIN-5_180degree"
@@ -7297,8 +7317,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 190.5 129.54 0)
+		(property "Description" "PRNT"
+			(at 190.5 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)

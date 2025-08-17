@@ -6029,7 +6029,7 @@
 		)
 		(uuid "0ab19ee3-4b19-483a-9284-cb2aa018babd")
 	)
-	(label "~{ioreq}"
+	(label "~{iorq}"
 		(at 74.93 76.2 180)
 		(effects
 			(font
@@ -6049,7 +6049,7 @@
 		)
 		(uuid "0b57fd34-4ab4-4efc-943e-889b82a32351")
 	)
-	(label "~{ioreq}"
+	(label "~{iorq}"
 		(at 88.9 92.71 0)
 		(effects
 			(font
@@ -6259,7 +6259,7 @@
 		)
 		(uuid "43b6a25c-ec16-4a53-903b-d8578aa820d1")
 	)
-	(label "~{IOREQ}"
+	(label "~{IORQ}"
 		(at 17.78 30.48 0)
 		(effects
 			(font
@@ -6269,7 +6269,7 @@
 		)
 		(uuid "44d142e2-0e0c-4bde-8f96-ca667279be2e")
 	)
-	(label "~{IOREQ}"
+	(label "~{IORQ}"
 		(at 22.86 156.21 0)
 		(effects
 			(font
@@ -6369,7 +6369,7 @@
 		)
 		(uuid "90765ee6-eb53-4e9f-aedb-ef0e1690a334")
 	)
-	(label "~{IOREQ}"
+	(label "~{IORQ}"
 		(at 109.22 156.21 0)
 		(effects
 			(font
@@ -6681,7 +6681,7 @@
 			)
 		)
 	)
-	(global_label "MEM_WR"
+	(global_label "~{MEM_WR}"
 		(shape output)
 		(at 157.48 173.99 0)
 		(fields_autoplaced yes)
@@ -6703,7 +6703,7 @@
 			)
 		)
 	)
-	(global_label "IO_WR"
+	(global_label "~{IO_WR}"
 		(shape output)
 		(at 157.48 158.75 0)
 		(fields_autoplaced yes)
@@ -6835,7 +6835,7 @@
 			)
 		)
 	)
-	(global_label "IO_OE"
+	(global_label "~{IO_OE}"
 		(shape output)
 		(at 71.12 158.75 0)
 		(fields_autoplaced yes)
@@ -6879,7 +6879,7 @@
 			)
 		)
 	)
-	(global_label "~{IOREQ}"
+	(global_label "~{IORQ}"
 		(shape output)
 		(at 34.29 76.2 180)
 		(fields_autoplaced yes)

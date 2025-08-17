@@ -12846,6 +12846,10 @@
 		(uuid "de8f5256-c60b-480b-83bf-dc03fcd12962")
 	)
 	(no_connect
+		(at 379.73 204.47)
+		(uuid "e8b3a987-327a-46ed-9986-e62ada026fc6")
+	)
+	(no_connect
 		(at 143.51 85.09)
 		(uuid "fb3093af-7159-461d-aa8a-46bcbd27fb99")
 	)
@@ -14060,6 +14064,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 22.86) (xy 377.19 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b36922a-316e-4711-a85e-85eb34f47fe3")
+	)
+	(wire
+		(pts
 			(xy 204.47 151.13) (xy 201.93 151.13)
 		)
 		(stroke
@@ -15097,6 +15111,16 @@
 			(type default)
 		)
 		(uuid "74b652bf-8023-4066-90df-2184d02aaa09")
+	)
+	(wire
+		(pts
+			(xy 389.89 25.4) (xy 377.19 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74f3a0db-42b7-4d1c-8ae8-35eae16e9b95")
 	)
 	(wire
 		(pts
@@ -16720,6 +16744,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 27.94) (xy 389.89 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d33695a8-1c72-4cc2-a1c0-f688b59a7e41")
+	)
+	(wire
+		(pts
 			(xy 101.6 163.83) (xy 101.6 194.31)
 		)
 		(stroke
@@ -17468,6 +17502,16 @@
 		)
 		(uuid "01413694-b6f1-48ad-a3e7-d5694da740c5")
 	)
+	(label "half_pxclk"
+		(at 377.19 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "019d15bd-26e1-45fb-bd99-c6399420f665")
+	)
 	(label "attr_blink"
 		(at 135.89 107.95 0)
 		(effects
@@ -17798,7 +17842,7 @@
 		)
 		(uuid "39d57ec4-d7ca-4b2f-8094-b5f0ad2cae09")
 	)
-	(label "~{IO_OE}"
+	(label "~{io_oe}"
 		(at 232.41 205.74 0)
 		(effects
 			(font
@@ -18718,6 +18762,16 @@
 		)
 		(uuid "cce2e3f7-daa7-4f64-9f49-da8405a496ab")
 	)
+	(label "CRTC_CLK"
+		(at 377.19 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1776749-7af9-44f9-a2af-07e04a13d36a")
+	)
 	(label "char0"
 		(at 72.39 138.43 0)
 		(effects
@@ -18938,7 +18992,7 @@
 		)
 		(uuid "f2b4eb31-2003-48d4-8a56-ba2f11a0a360")
 	)
-	(label "FRAME_SYNC"
+	(label "frame_sync"
 		(at 288.29 181.61 180)
 		(effects
 			(font
@@ -18947,6 +19001,16 @@
 			(justify right bottom)
 		)
 		(uuid "f4cf7571-91a4-4d1e-a1a4-0cf0f0db29ac")
+	)
+	(label "quart_pxclk"
+		(at 377.19 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4d83e25-3d7e-4610-a412-c8cc7a3507e5")
 	)
 	(label "half_pxclk"
 		(at 190.5 191.77 180)
@@ -19038,7 +19102,29 @@
 		)
 		(uuid "ff540bd2-e2ad-416a-b42f-ec3fc4a3081e")
 	)
-	(global_label "IO_OE"
+	(global_label "~{IO_OE}"
+		(shape input)
+		(at 232.41 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "03dbd5e2-63de-4e47-ac9f-ed2c459364ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 224.0424 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{IO_OE}"
 		(shape input)
 		(at 148.59 63.5 0)
 		(fields_autoplaced yes)
@@ -19051,6 +19137,27 @@
 		(uuid "1796dd1a-82f1-4590-962a-bfb38086e277")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 156.9576 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "quart_pxclk"
+		(shape output)
+		(at 389.89 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35eb892d-466b-4c7f-8445-ce9bfe0539cf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 393.6007 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19104,7 +19211,29 @@
 			)
 		)
 	)
-	(global_label "IO_WR"
+	(global_label "CRTC_CLK"
+		(shape output)
+		(at 389.89 27.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c143ef4-31b3-40e6-99a7-0d176232ea43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.1885 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{IO_WR}"
 		(shape input)
 		(at 148.59 58.42 0)
 		(fields_autoplaced yes)
@@ -19126,7 +19255,7 @@
 			)
 		)
 	)
-	(global_label "IO_WR"
+	(global_label "~{IO_WR}"
 		(shape input)
 		(at 76.2 49.53 0)
 		(fields_autoplaced yes)
@@ -19161,6 +19290,28 @@
 		(uuid "7e52461c-cecc-4b23-868d-d0df8204010a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.8885 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FRAME_SYNC"
+		(shape output)
+		(at 288.29 181.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8776822d-04fd-420d-a81e-9696b279f37c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 303.189 181.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19249,6 +19400,27 @@
 		(uuid "d73e999c-e6b8-4272-a116-257f7db27738")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 81.4833 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "half_pxclk"
+		(shape output)
+		(at 389.89 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1187627-0950-4ff9-b24c-1161ae9b8134")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 392.3307 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20092,12 +20264,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "quad 2-input NAND gate"
 			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21724,12 +21897,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "quad 2-input NAND gate"
 			(at 187.96 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22738,12 +22912,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "quad 2-input NAND gate"
 			(at 170.18 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -23505,7 +23680,7 @@
 		)
 	)
 	(symbol
-		(lib_id "74xx:74LS38")
+		(lib_id "74xx:74LS00")
 		(at 138.43 60.96 0)
 		(mirror y)
 		(unit 1)
@@ -23540,8 +23715,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS38"
-			(at 181.61 0 0)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls00"
+			(at 138.43 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23549,12 +23724,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "quad 2-input NAND gate"
 			(at 138.43 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
