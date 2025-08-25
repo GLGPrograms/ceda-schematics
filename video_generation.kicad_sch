@@ -17184,6 +17184,16 @@
 	)
 	(wire
 		(pts
+			(xy 377.19 30.48) (xy 389.89 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef92d4bc-1132-4bac-933f-d54eb96795ee")
+	)
+	(wire
+		(pts
 			(xy 30.48 168.91) (xy 35.56 168.91)
 		)
 		(stroke
@@ -17552,7 +17562,7 @@
 		)
 		(uuid "06f8bca9-ceae-411d-a110-f6e917abc77e")
 	)
-	(label "HSYNC"
+	(label "VSYNC"
 		(at 384.81 199.39 0)
 		(effects
 			(font
@@ -18412,7 +18422,7 @@
 		)
 		(uuid "98264ff5-76b9-48cc-9c0b-ba27d485e761")
 	)
-	(label "VSYNC"
+	(label "HSYNC"
 		(at 360.68 199.39 180)
 		(effects
 			(font
@@ -18601,6 +18611,16 @@
 			(justify left bottom)
 		)
 		(uuid "b115a4e9-2073-497c-9d53-7bbc057d2bad")
+	)
+	(label "~{CRTC_CLK}"
+		(at 377.19 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b76b8eb7-b297-4fba-970f-72284e7d87af")
 	)
 	(label "ra1"
 		(at 36.83 76.2 180)
@@ -19268,6 +19288,28 @@
 		(uuid "784ccc1f-2c42-4811-8b37-33b9d4714af3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.8095 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{CRTC_CLK}"
+		(shape output)
+		(at 389.89 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "795dd7ba-91e4-460a-a413-3c2e7a58baa0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 402.1885 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)

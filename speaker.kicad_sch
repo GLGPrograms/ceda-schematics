@@ -6170,6 +6170,28 @@
 			)
 		)
 	)
+	(global_label "D[7..0]"
+		(shape bidirectional)
+		(at 113.03 171.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "969247c0-7660-4014-9ed5-8acb434b88d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.7185 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{FDC_TC}"
 		(shape output)
 		(at 102.87 96.52 0)
@@ -6279,17 +6301,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "D[7..0]"
-		(shape bidirectional)
-		(at 113.03 171.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "227ace3d-5a1d-4453-bba2-a03961985e1e")
 	)
 	(symbol
 		(lib_id "power:GND")
