@@ -12490,7 +12490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 124.46 204.47 0)
 			(effects
 				(font
@@ -12607,7 +12607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 72.39 77.47 0)
 			(effects
 				(font
@@ -12724,7 +12724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 270.51 77.47 0)
 			(effects
 				(font
@@ -13081,7 +13081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 171.45 77.47 0)
 			(effects
 				(font
@@ -14155,7 +14155,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 204.47 77.47 0)
 			(effects
 				(font
@@ -14675,7 +14675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 237.49 77.47 0)
 			(effects
 				(font
@@ -14966,7 +14966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 138.43 77.47 0)
 			(effects
 				(font
@@ -15225,7 +15225,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 105.41 77.47 0)
 			(effects
 				(font
@@ -15925,7 +15925,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 39.37 77.47 0)
 			(effects
 				(font
