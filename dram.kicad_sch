@@ -8799,6 +8799,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 119.38) (xy 251.46 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a57adf8-0936-464b-a920-fbb768d509fa")
+	)
+	(wire
+		(pts
 			(xy 187.96 119.38) (xy 201.93 119.38)
 		)
 		(stroke
@@ -11749,6 +11759,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PERROR"
+		(shape output)
+		(at 252.73 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23b30b53-1198-41dc-bb1f-2ff5e9e9240f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 263.2747 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
