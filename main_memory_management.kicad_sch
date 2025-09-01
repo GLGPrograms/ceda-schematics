@@ -7906,7 +7906,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 154.94) (xy 104.14 154.94)
+			(xy 93.98 152.4) (xy 104.14 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8596,7 +8596,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 162.56) (xy 93.98 154.94)
+			(xy 93.98 162.56) (xy 93.98 152.4)
 		)
 		(stroke
 			(width 0)
@@ -9824,16 +9824,6 @@
 		)
 		(uuid "a747b16b-3fda-4382-9fc9-7a3da8c3f1a7")
 	)
-	(label "dram_addr_sel"
-		(at 104.14 154.94 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a9022009-2d8d-4413-9df9-203960e233c3")
-	)
 	(label "A0"
 		(at 30.48 102.87 0)
 		(effects
@@ -10567,6 +10557,28 @@
 		(uuid "ef38da95-9d3a-4e71-8178-22b1333787a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.0472 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "dram_addr_sel"
+		(shape output)
+		(at 104.14 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f150d5f9-194d-4104-9302-59464b4cd37c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.853 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
