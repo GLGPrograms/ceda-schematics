@@ -4387,6 +4387,14 @@
 		(at 90.17 86.36)
 		(uuid "3d6ea225-8e34-42bb-8d05-69e91f347d3b")
 	)
+	(no_connect
+		(at 49.53 168.91)
+		(uuid "6bd1aeb4-6c81-4291-9ab9-af4cdcb1c9f9")
+	)
+	(no_connect
+		(at 49.53 144.78)
+		(uuid "91d93cd0-9ffc-4778-a2f2-564b861a0c98")
+	)
 	(bus_entry
 		(at 106.68 151.13)
 		(size 2.54 2.54)
@@ -4924,7 +4932,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 166.37) (xy 77.47 166.37)
+			(xy 72.39 166.37) (xy 77.47 166.37)
 		)
 		(stroke
 			(width 0)
@@ -5534,16 +5542,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 144.78) (xy 49.53 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c3b7e3-250f-45a1-8656-71293001717d")
-	)
-	(wire
-		(pts
 			(xy 41.91 144.78) (xy 41.91 158.75)
 		)
 		(stroke
@@ -5942,16 +5940,6 @@
 		)
 		(uuid "b945cd74-0533-4e60-a857-6f25586972c6")
 	)
-	(label "disptmg_reg"
-		(at 64.77 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e35aca4a-c161-4c0c-90fd-1a367b3eba4b")
-	)
 	(label "~{DIPSW_CS}"
 		(at 102.87 88.9 180)
 		(effects
@@ -6051,6 +6039,28 @@
 		(uuid "272710cb-ab59-4ff4-ae88-77e062de3dd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 17.2139 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "disptmg_reg"
+		(shape input)
+		(at 72.39 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "28af104e-6da5-47e1-959c-0bf698e25227")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.9145 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,16 +8282,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_DIP_x08")
-		(at 41.91 176.53 90)
+		(at 39.37 176.53 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b58c8be3-25e6-4c10-80e4-0cfbf91d1048")
 		(property "Reference" "SW1"
-			(at 53.34 175.26 90)
+			(at 27.94 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,7 +8300,7 @@
 			)
 		)
 		(property "Value" "SW_DIP_x08"
-			(at 53.34 177.8 90)
+			(at 27.94 177.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,8 +8308,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 41.91 176.53 0)
+		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx08_Slide_9.78x22.5mm_W7.62mm_P2.54mm"
+			(at 39.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8308,7 +8318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 176.53 0)
+			(at 39.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,7 +8327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 41.91 176.53 0)
+			(at 39.37 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

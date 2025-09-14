@@ -10412,7 +10412,7 @@
 			)
 		)
 	)
-	(global_label "~{MEM_WE}"
+	(global_label "~{MEM_WR}"
 		(shape input)
 		(at 71.12 107.95 0)
 		(fields_autoplaced yes)
@@ -10424,7 +10424,7 @@
 		)
 		(uuid "ac9b0636-2442-42db-abe9-9ee09c7e5c2a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 81.725 107.95 0)
+			(at 81.846 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
