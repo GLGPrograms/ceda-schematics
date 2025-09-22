@@ -7135,6 +7135,12 @@
 		(uuid "812a7f2a-7aed-4caf-8c85-35f40fe5d9d9")
 	)
 	(junction
+		(at 246.38 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8807e779-338f-462e-9db8-fcc1eccf216c")
+	)
+	(junction
 		(at 71.12 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9274,6 +9280,16 @@
 		)
 		(uuid "dffed717-00f9-452e-b41d-cea7b9228a5a")
 	)
+	(wire
+		(pts
+			(xy 246.38 85.09) (xy 260.35 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e128913a-ed01-4d16-a8f9-11c36bd9253b")
+	)
 	(bus
 		(pts
 			(xy 26.67 120.65) (xy 26.67 123.19)
@@ -10094,16 +10110,6 @@
 		)
 		(uuid "f935c3dd-bbb5-4cbd-9936-d8cac97bb7d8")
 	)
-	(label "MREQ"
-		(at 246.38 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fa7651f0-75a9-4c23-b1e6-abed05a04fa7")
-	)
 	(global_label "~{DEL_RFSH}"
 		(shape output)
 		(at 204.47 137.16 0)
@@ -10342,6 +10348,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MREQ"
+		(shape output)
+		(at 260.35 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a013661-2592-420b-a0c8-ad1e9d48b4d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 268.5361 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
