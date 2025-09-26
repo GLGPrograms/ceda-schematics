@@ -22768,7 +22768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adcfe7c7-b119-49b7-b127-23c1a323f2d8")
-		(property "Reference" "UC1"
+		(property "Reference" "UC2"
 			(at 359.41 161.925 0)
 			(effects
 				(font
@@ -22855,7 +22855,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "UC1")
+					(reference "UC2")
 					(unit 2)
 				)
 			)
