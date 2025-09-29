@@ -7849,6 +7849,16 @@
 		)
 		(uuid "8c16ff99-44df-4bdf-a6b0-436137284844")
 	)
+	(text "vma 7 e vma 6 scambiati"
+		(exclude_from_sim no)
+		(at 99.06 114.046 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9bb9d1cb-f7fb-4587-bccb-ebcd34c8844c")
+	)
 	(text "Addressing Logic\nMUXSEL\n0 -> CRTC\n1 -> Z80"
 		(exclude_from_sim no)
 		(at 54.61 80.01 0)
@@ -12415,7 +12425,7 @@
 		)
 		(uuid "024c43f6-1df4-41b7-adbc-227773bd671a")
 	)
-	(label "VMA3"
+	(label "VMA2"
 		(at 55.88 43.18 0)
 		(effects
 			(font
@@ -12475,7 +12485,7 @@
 		)
 		(uuid "051afd94-a24d-4382-956d-4ac409e45d86")
 	)
-	(label "chmd0"
+	(label "chmd7"
 		(at 288.29 92.71 180)
 		(effects
 			(font
@@ -12515,7 +12525,7 @@
 		)
 		(uuid "0e69af71-a4b7-4d4d-b489-28e89132a2ca")
 	)
-	(label "chmd2"
+	(label "chmd6"
 		(at 288.29 97.79 180)
 		(effects
 			(font
@@ -12605,7 +12615,7 @@
 		)
 		(uuid "196a58cb-2afc-40af-b2c1-449583508101")
 	)
-	(label "A6"
+	(label "A7"
 		(at 60.96 113.03 180)
 		(effects
 			(font
@@ -12665,7 +12675,7 @@
 		)
 		(uuid "2bba8277-1c75-4e8b-808a-0b4247407057")
 	)
-	(label "chmd6"
+	(label "chmd2"
 		(at 288.29 107.95 180)
 		(effects
 			(font
@@ -12705,7 +12715,7 @@
 		)
 		(uuid "32227aa4-5c87-4715-9325-b4d509d3f88c")
 	)
-	(label "D2"
+	(label "D6"
 		(at 322.58 97.79 0)
 		(effects
 			(font
@@ -12715,7 +12725,7 @@
 		)
 		(uuid "33183598-2fad-4f29-b4a0-32f89242998d")
 	)
-	(label "VMA7"
+	(label "VMA6"
 		(at 55.88 102.87 0)
 		(effects
 			(font
@@ -12895,7 +12905,7 @@
 		)
 		(uuid "554b307e-71f0-4257-a2bc-00f0c7b7f1a5")
 	)
-	(label "D0"
+	(label "D7"
 		(at 322.58 92.71 0)
 		(effects
 			(font
@@ -12915,7 +12925,7 @@
 		)
 		(uuid "58d5baba-7359-4c27-998b-d7bf12c890b8")
 	)
-	(label "vmem2"
+	(label "vmem3"
 		(at 87.63 50.8 0)
 		(effects
 			(font
@@ -13055,7 +13065,7 @@
 		)
 		(uuid "7bcdabba-da2b-4e89-8f23-64b580f8950a")
 	)
-	(label "chmd7"
+	(label "chmd5"
 		(at 288.29 110.49 180)
 		(effects
 			(font
@@ -13085,7 +13095,7 @@
 		)
 		(uuid "8074d1fd-982e-4f61-88d7-995fedc8cba8")
 	)
-	(label "D6"
+	(label "D2"
 		(at 322.58 107.95 0)
 		(effects
 			(font
@@ -13095,7 +13105,7 @@
 		)
 		(uuid "82a6d4ed-30d9-492c-8994-002606a88bfc")
 	)
-	(label "vmem7"
+	(label "vmem6"
 		(at 87.63 102.87 0)
 		(effects
 			(font
@@ -13155,7 +13165,7 @@
 		)
 		(uuid "8d6ef334-06c4-438c-ac2c-140b589522e8")
 	)
-	(label "D7"
+	(label "D5"
 		(at 322.58 110.49 0)
 		(effects
 			(font
@@ -13235,7 +13245,7 @@
 		)
 		(uuid "9c71bbca-d7fa-4f88-b219-93e892d6556a")
 	)
-	(label "A3"
+	(label "A2"
 		(at 60.96 45.72 180)
 		(effects
 			(font
@@ -13265,7 +13275,7 @@
 		)
 		(uuid "9fa23397-de8a-4501-92f0-3c0f0253c907")
 	)
-	(label "VMA6"
+	(label "VMA7"
 		(at 55.88 110.49 0)
 		(effects
 			(font
@@ -13345,7 +13355,7 @@
 		)
 		(uuid "ac1a04c3-4863-47b9-b826-c94f3baafde6")
 	)
-	(label "D5"
+	(label "D0"
 		(at 322.58 105.41 0)
 		(effects
 			(font
@@ -13355,7 +13365,7 @@
 		)
 		(uuid "ac2d6955-3cd5-41e6-b204-56f698d5f07c")
 	)
-	(label "VMA2"
+	(label "VMA3"
 		(at 55.88 50.8 0)
 		(effects
 			(font
@@ -13425,7 +13435,7 @@
 		)
 		(uuid "bbc0e4a4-2caf-41ba-8c58-cb13917fde31")
 	)
-	(label "A7"
+	(label "A6"
 		(at 60.96 105.41 180)
 		(effects
 			(font
@@ -13445,7 +13455,7 @@
 		)
 		(uuid "bdbbb3c9-c026-47d4-bc00-d76bda43e934")
 	)
-	(label "chmd5"
+	(label "chmd0"
 		(at 288.29 105.41 180)
 		(effects
 			(font
@@ -13475,7 +13485,7 @@
 		)
 		(uuid "bfc914ab-8565-40c8-8174-ceb89bd6c895")
 	)
-	(label "A2"
+	(label "A3"
 		(at 60.96 53.34 180)
 		(effects
 			(font
@@ -13585,7 +13595,7 @@
 		)
 		(uuid "cf4c8b65-6d01-45c8-b050-77a30fe66a2f")
 	)
-	(label "vmem6"
+	(label "vmem7"
 		(at 87.63 110.49 0)
 		(effects
 			(font
@@ -13725,7 +13735,7 @@
 		)
 		(uuid "ef85df7b-1974-44f7-a715-a8fb3a504194")
 	)
-	(label "vmem3"
+	(label "vmem2"
 		(at 87.63 43.18 0)
 		(effects
 			(font
