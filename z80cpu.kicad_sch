@@ -7139,7 +7139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 238.76 155.448 90)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 226.06 153.67 0)
 			(effects
 				(font
@@ -8117,7 +8117,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 40.64 0)
+		(at 85.09 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8126,7 +8126,7 @@
 		(fields_autoplaced yes)
 		(uuid "705c053c-18bc-457c-b15b-f7d3d2ddd7db")
 		(property "Reference" "R81"
-			(at 82.55 39.37 0)
+			(at 87.63 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8135,7 +8135,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 82.55 41.91 0)
+			(at 87.63 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,8 +8143,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 83.312 40.64 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 86.868 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)

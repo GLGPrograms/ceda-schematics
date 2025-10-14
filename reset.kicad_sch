@@ -4718,6 +4718,12 @@
 		(uuid "3e217ddd-9bb0-4aa5-b963-0cacc4c0c7b7")
 	)
 	(junction
+		(at 228.6 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56762f04-e2b1-410f-9332-34c3635717e2")
+	)
+	(junction
 		(at 20.32 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4897,7 +4903,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 72.39) (xy 236.22 72.39)
+			(xy 213.36 72.39) (xy 228.6 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5034,6 +5040,16 @@
 			(type default)
 		)
 		(uuid "3c8cab0e-fc3e-4197-b703-23dd2cb7512b")
+	)
+	(wire
+		(pts
+			(xy 228.6 69.85) (xy 228.6 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3df280f9-1daf-4faa-818e-8914508921fb")
 	)
 	(wire
 		(pts
@@ -5527,6 +5543,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 72.39) (xy 236.22 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d490d85f-1c16-4121-a1ed-39bfa8354d07")
+	)
+	(wire
+		(pts
 			(xy 85.09 170.18) (xy 86.36 170.18)
 		)
 		(stroke
@@ -5864,6 +5890,75 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228.6 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00944a4f-5bc9-4eda-b052-61ec68a6a08c")
+		(property "Reference" "R41"
+			(at 231.14 64.7699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 231.14 67.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 226.822 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6658c9d5-559e-4257-9787-6a038bd189cf")
+		)
+		(pin "2"
+			(uuid "0a91ae9e-10c3-46eb-9474-7d306feb060e")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/d9e42cc5-3ed8-41e5-aab1-e3ef5c13a809"
+					(reference "R41")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -6543,7 +6638,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 19.3548 147.32 0)
 			(effects
 				(font
@@ -6827,6 +6922,71 @@
 				(path "/78a71fa9-fd41-47e5-b74e-12c910bbc068"
 					(reference "UA7")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 228.6 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f9557ab-5345-40ac-a18c-2688c347329c")
+		(property "Reference" "#PWR03"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 228.6 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c9b4c64f-ee17-4f6a-bcec-d7eaf78bd431")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/d9e42cc5-3ed8-41e5-aab1-e3ef5c13a809"
+					(reference "#PWR03")
+					(unit 1)
 				)
 			)
 		)
@@ -7130,7 +7290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 109.982 91.44 90)
 			(effects
 				(font
@@ -7496,7 +7656,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 25.4 184.4548 0)
 			(effects
 				(font
@@ -7680,7 +7840,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P5.08mm_Vertical_KathodeUp"
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -7767,7 +7927,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 112.7252 54.61 0)
 			(effects
 				(font
@@ -8004,7 +8164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 112.7252 107.95 0)
 			(effects
 				(font
@@ -8397,7 +8557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 109.982 38.1 90)
 			(effects
 				(font
@@ -8532,7 +8692,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 52.3748 147.32 0)
 			(effects
 				(font
@@ -8821,7 +8981,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 160.02 270)
+		(at 36.83 160.02 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8846,8 +9006,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 36.83 161.798 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 36.83 158.242 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9089,7 +9249,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 128.27 161.29 0)
 			(effects
 				(font
@@ -9170,7 +9330,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 41.6052 82.55 0)
 			(effects
 				(font
@@ -9214,7 +9374,7 @@
 	(symbol
 		(lib_id "Device:Crystal")
 		(at 43.18 185.42 0)
-		(mirror x)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9238,7 +9398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC18-U_Vertical"
 			(at 43.18 185.42 0)
 			(effects
 				(font
@@ -9313,7 +9473,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 38.862 66.04 90)
 			(effects
 				(font

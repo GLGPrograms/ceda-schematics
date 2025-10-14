@@ -8210,6 +8210,199 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_BJT:Q_PNP_ECB"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PNP_ECB"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "PNP transistor, emitter/collector/base"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PNP_ECB_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_PNP_ECB_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ceda:74LS628"
 			(pin_names
 				(offset 1.016)
@@ -16099,7 +16292,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 109.22 149.86 0)
+		(at 109.22 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16108,25 +16301,25 @@
 		(fields_autoplaced yes)
 		(uuid "0056cb8a-c3d3-4b77-9033-c196e37b99fd")
 		(property "Reference" "R33"
-			(at 111.76 148.59 0)
+			(at 111.76 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R"
-			(at 111.76 151.13 0)
+			(at 111.76 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 107.442 149.86 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 110.998 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16510,7 +16703,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:PNP")
+		(lib_id "Transistor_BJT:Q_PNP_ECB")
 		(at 116.84 156.21 0)
 		(mirror x)
 		(unit 1)
@@ -16521,7 +16714,7 @@
 		(fields_autoplaced yes)
 		(uuid "03839eea-878d-4986-b311-59803df35f7e")
 		(property "Reference" "TR3"
-			(at 121.92 154.94 0)
+			(at 121.92 154.9399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16530,7 +16723,7 @@
 			)
 		)
 		(property "Value" "A495"
-			(at 121.92 157.48 0)
+			(at 121.92 157.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16538,8 +16731,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 156.21 0)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 121.92 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16548,7 +16741,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 156.21 0)
+			(at 116.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16556,12 +16749,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PNP transistor, emitter/collector/base"
 			(at 116.84 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" "PNP"
@@ -16634,7 +16828,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 22.86 74.168 90)
 			(effects
 				(font
@@ -16889,7 +17083,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -10.922 146.05 90)
 			(effects
 				(font
@@ -16956,7 +17150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 152.4 233.68 0)
 			(effects
 				(font
@@ -17143,7 +17337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at -68.58 266.7 0)
 			(effects
 				(font
@@ -17336,33 +17530,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 135.89 147.32 0)
+		(at 135.89 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1f22e244-a390-45ed-848f-dee4b7b3ba56")
 		(property "Reference" "R32"
-			(at 138.43 146.05 0)
+			(at 138.43 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R"
-			(at 138.43 148.59 0)
+			(at 138.43 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 134.112 147.32 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 137.668 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17598,7 +17793,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 3.048 215.9 90)
 			(effects
 				(font
@@ -17769,7 +17964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at -40.64 228.6 0)
 			(effects
 				(font
@@ -17866,7 +18061,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at -85.09 106.045 0)
 			(effects
 				(font
@@ -18900,7 +19095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d24c736-b175-469b-b25a-c51e6581c297")
-		(property "Reference" "R41"
+		(property "Reference" "R141"
 			(at -46.99 161.2899 0)
 			(effects
 				(font
@@ -18918,7 +19113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -52.578 162.56 90)
 			(effects
 				(font
@@ -18953,7 +19148,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "R41")
+					(reference "R141")
 					(unit 1)
 				)
 			)
@@ -19272,7 +19467,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 15.24 274.828 90)
 			(effects
 				(font
@@ -19339,7 +19534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -36.83 165.862 90)
 			(effects
 				(font
@@ -19640,7 +19835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -5.842 279.4 90)
 			(effects
 				(font
@@ -19709,7 +19904,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -10.922 123.19 90)
 			(effects
 				(font
@@ -19778,7 +19973,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P5.08mm_Vertical_KathodeUp"
 			(at -7.62 242.57 0)
 			(effects
 				(font
@@ -19928,7 +20123,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical"
 			(at 355.6 35.56 0)
 			(effects
 				(font
@@ -20346,8 +20541,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 135.89 156.21 0)
-		(mirror y)
+		(at 135.89 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20355,15 +20549,6 @@
 		(dnp no)
 		(uuid "61fe058c-aab4-467c-bbda-7c43c479fc28")
 		(property "Reference" "VR2"
-			(at 138.43 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
 			(at 138.43 157.48 0)
 			(effects
 				(font
@@ -20372,7 +20557,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "R_Potentiometer"
+			(at 138.43 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Ceda:Round_Trimmer"
 			(at 135.89 156.21 0)
 			(effects
 				(font
@@ -20443,7 +20637,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -9.398 215.9 90)
 			(effects
 				(font
@@ -20776,7 +20970,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 165.1 0)
+		(at 90.17 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20785,7 +20979,7 @@
 		(fields_autoplaced yes)
 		(uuid "7943e20e-9043-4528-bd54-3a7eb92c53e6")
 		(property "Reference" "R35"
-			(at 87.63 163.83 0)
+			(at 92.71 163.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20794,7 +20988,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 87.63 166.37 0)
+			(at 92.71 166.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20802,8 +20996,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 88.392 165.1 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 91.948 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21444,7 +21638,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 119.38 185.42 0)
 			(effects
 				(font
@@ -21725,7 +21919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 0.762 279.4 90)
 			(effects
 				(font
@@ -22021,23 +22215,14 @@
 	(symbol
 		(lib_id "Device:R_Potentiometer")
 		(at 125.73 168.91 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8c2719eb-4beb-4e58-9429-68d1a1c3c3ac")
 		(property "Reference" "VR3"
-			(at 123.19 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer"
 			(at 123.19 170.18 0)
 			(effects
 				(font
@@ -22046,7 +22231,16 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "R_Potentiometer"
+			(at 123.19 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Ceda:Round_Trimmer"
 			(at 125.73 168.91 0)
 			(effects
 				(font
@@ -22183,7 +22377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -49.022 173.99 90)
 			(effects
 				(font
@@ -22438,7 +22632,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Ceda:Round_Trimmer"
 			(at -12.7 134.62 0)
 			(effects
 				(font
@@ -22691,7 +22885,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 180.34 203.2 0)
+		(at 180.34 203.2 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22700,25 +22894,25 @@
 		(fields_autoplaced yes)
 		(uuid "ab6be9fc-53bf-4a3f-ad39-42a1e6bbcf40")
 		(property "Reference" "R80"
-			(at 182.88 201.93 0)
+			(at 182.88 201.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R"
-			(at 182.88 204.47 0)
+			(at 182.88 204.4699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 178.562 203.2 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 182.118 203.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23122,7 +23316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b36cdc0c-e1dd-4b82-9b54-5826160c4bdd")
-		(property "Reference" "C11"
+		(property "Reference" "C20"
 			(at 65.405 132.08 90)
 			(effects
 				(font
@@ -23138,7 +23332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 69.215 138.7348 0)
 			(effects
 				(font
@@ -23173,7 +23367,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "C11")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -23205,7 +23399,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 19.05 265.7348 0)
 			(effects
 				(font
@@ -23458,7 +23652,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 24.13 146.558 90)
 			(effects
 				(font
@@ -23501,7 +23695,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 102.87 156.21 90)
+		(at 102.87 156.21 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23525,8 +23719,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 102.87 157.988 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 102.87 154.432 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23809,7 +24003,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d201c85a-f8f7-4edf-b497-15b150048e68")
-		(property "Reference" "C17"
+		(property "Reference" "C21"
 			(at 135.89 163.83 90)
 			(effects
 				(font
@@ -23825,7 +24019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 139.7 170.4848 0)
 			(effects
 				(font
@@ -23860,7 +24054,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
-					(reference "C17")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -24164,7 +24358,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -4.572 173.99 90)
 			(effects
 				(font
@@ -24420,7 +24614,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P5.08mm_Vertical_KathodeUp"
 			(at -7.62 254 0)
 			(effects
 				(font
@@ -24572,7 +24766,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -14.732 173.99 90)
 			(effects
 				(font
@@ -24640,7 +24834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 74.93 185.42 0)
 			(effects
 				(font
@@ -24874,7 +25068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at -8.128 162.56 90)
 			(effects
 				(font
@@ -25146,7 +25340,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_IDC:IDC-Header_2x25_P2.54mm_Vertical"
 			(at 251.46 240.665 0)
 			(effects
 				(font
@@ -25527,7 +25721,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 26.67 250.4948 0)
 			(effects
 				(font
@@ -25594,7 +25788,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 22.86 256.032 90)
 			(effects
 				(font
@@ -25661,7 +25855,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at -20.32 166.6748 0)
 			(effects
 				(font
@@ -25833,7 +26027,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 99.06 170.4848 0)
 			(effects
 				(font

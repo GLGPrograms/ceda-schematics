@@ -9862,187 +9862,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_NPN_BCE"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_NPN_BCE"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "NPN transistor, base/collector/emitter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Q_NPN_BCE_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Q_NPN_BCE_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -10295,6 +10114,199 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:Q_NPN_ECB"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_NPN_ECB"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "NPN transistor, emitter/collector/base"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_NPN_ECB_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_NPN_ECB_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12638,6 +12650,12 @@
 		(uuid "3b3ebee9-385e-401c-9b42-1b0f61e1fdf6")
 	)
 	(junction
+		(at 339.09 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d3e1a25-9cba-4320-983c-41dc436d3f75")
+	)
+	(junction
 		(at 381 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12672,6 +12690,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8ed46a85-3a4c-4d05-b379-101688faee0b")
+	)
+	(junction
+		(at 339.09 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95343be8-4879-4ab9-8285-44089c336709")
 	)
 	(junction
 		(at 245.11 41.91)
@@ -12750,12 +12774,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9a1c13f-be5b-4030-a5eb-6febf65bea05")
-	)
-	(junction
-		(at 189.0198 29.1925)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f249f230-c71a-434b-85c7-6cb2d123d837")
 	)
 	(no_connect
 		(at 180.34 77.47)
@@ -12844,10 +12862,6 @@
 	(no_connect
 		(at 143.51 80.01)
 		(uuid "de8f5256-c60b-480b-83bf-dc03fcd12962")
-	)
-	(no_connect
-		(at 379.73 204.47)
-		(uuid "e8b3a987-327a-46ed-9986-e62ada026fc6")
 	)
 	(no_connect
 		(at 143.51 85.09)
@@ -13744,7 +13758,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 139.7) (xy 340.36 139.7)
+			(xy 332.74 139.7) (xy 339.09 139.7)
 		)
 		(stroke
 			(width 0)
@@ -14081,6 +14095,16 @@
 			(type default)
 		)
 		(uuid "2b36922a-316e-4711-a85e-85eb34f47fe3")
+	)
+	(wire
+		(pts
+			(xy 339.09 139.7) (xy 339.09 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "302f3dbb-76b8-4fc1-920f-04c877ed96aa")
 	)
 	(wire
 		(pts
@@ -14632,6 +14656,16 @@
 		)
 		(uuid "57cb613a-793a-4284-ad68-9478b4c0f84b")
 	)
+	(wire
+		(pts
+			(xy 339.09 139.7) (xy 340.36 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "584e33f0-1368-41bb-a24a-eea6141cab4a")
+	)
 	(bus
 		(pts
 			(xy 73.66 68.58) (xy 73.66 66.04)
@@ -14791,6 +14825,16 @@
 			(type default)
 		)
 		(uuid "60568a1e-a3a8-45d0-bd9b-bd2cd1398303")
+	)
+	(wire
+		(pts
+			(xy 339.09 134.62) (xy 340.36 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6197cf25-2526-4707-a33c-b5b3baa90691")
 	)
 	(wire
 		(pts
@@ -16042,6 +16086,16 @@
 		)
 		(uuid "a94b7e08-bc1f-4ae8-b10c-2126c05ea302")
 	)
+	(wire
+		(pts
+			(xy 379.73 204.47) (xy 384.81 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acba2a72-5451-4a34-b9b9-a5f81537b45b")
+	)
 	(bus
 		(pts
 			(xy 73.66 71.12) (xy 73.66 68.58)
@@ -16601,6 +16655,16 @@
 			(type default)
 		)
 		(uuid "cb99975e-18c2-4c29-a10c-57b6fd223ac0")
+	)
+	(wire
+		(pts
+			(xy 339.09 130.81) (xy 339.09 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfc9bc8-c688-4b45-8d1c-823c8b182e28")
 	)
 	(wire
 		(pts
@@ -17334,7 +17398,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 134.62) (xy 340.36 134.62)
+			(xy 337.82 134.62) (xy 339.09 134.62)
 		)
 		(stroke
 			(width 0)
@@ -17561,6 +17625,16 @@
 			(justify right bottom)
 		)
 		(uuid "0499f355-5abb-40a6-99ea-fe03d0f12e7d")
+	)
+	(label "crt3"
+		(at 384.81 204.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05d8b73f-38aa-4fe3-91ef-6c85bc7839f5")
 	)
 	(label "cl2"
 		(at 57.15 129.54 0)
@@ -17922,6 +17996,16 @@
 		)
 		(uuid "3fde21ce-e996-4ccb-a6d0-79b05f07e27a")
 	)
+	(label "crt5"
+		(at 339.09 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "404242e6-7774-437b-8d12-6d7fbe2fd4b2")
+	)
 	(label "blink timer"
 		(at 191.77 85.09 180)
 		(effects
@@ -18172,6 +18256,16 @@
 		)
 		(uuid "685f3f57-2655-4a90-84dc-68b88dfe7988")
 	)
+	(label "crt3"
+		(at 339.09 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a96e226-187d-4b3f-af62-884144211f94")
+	)
 	(label "CRTC_CLK"
 		(at 368.3 43.18 0)
 		(effects
@@ -18282,7 +18376,7 @@
 		)
 		(uuid "82495534-fb70-4965-8634-f7d4a14acd3b")
 	)
-	(label "pixel_valid"
+	(label "crt5"
 		(at 384.81 201.93 0)
 		(effects
 			(font
@@ -19877,7 +19971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 389.382 143.51 90)
 			(effects
 				(font
@@ -20690,7 +20784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 360.68 48.26 0)
 			(effects
 				(font
@@ -20756,7 +20850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 377.952 116.84 90)
 			(effects
 				(font
@@ -21060,7 +21154,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
 			(at 83.82 240.03 0)
 			(effects
 				(font
@@ -21397,7 +21491,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 24.13 0)
+		(at 173.99 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21406,7 +21500,7 @@
 		(fields_autoplaced yes)
 		(uuid "35c8bfa7-9748-4a25-9a4c-b480bb3e2e54")
 		(property "Reference" "R68"
-			(at 175.768 23.2953 0)
+			(at 175.768 39.8053 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21415,7 +21509,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 175.768 25.8322 0)
+			(at 175.768 42.3422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21423,8 +21517,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.212 24.13 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 172.212 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21433,7 +21527,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 24.13 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21442,7 +21536,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 24.13 0)
+			(at 173.99 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21659,7 +21753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 231.14 33.528 90)
 			(effects
 				(font
@@ -21832,7 +21926,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 219.71 56.1848 0)
 			(effects
 				(font
@@ -22070,7 +22164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 244.1448 73.66 0)
 			(effects
 				(font
@@ -23150,7 +23244,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
 			(at 203.962 69.85 90)
 			(effects
 				(font
@@ -24129,7 +24223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P5.08mm_Vertical_KathodeUp"
 			(at 372.11 137.16 0)
 			(effects
 				(font
@@ -24570,7 +24664,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC18-U_Horizontal_1EP_style2"
 			(at 237.49 57.15 0)
 			(effects
 				(font
@@ -25556,7 +25650,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NPN_BCE")
+		(lib_id "Transistor_BJT:Q_NPN_ECB")
 		(at 388.62 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25582,7 +25676,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
 			(at 393.7 120.65 0)
 			(effects
 				(font
@@ -25600,12 +25694,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "NPN transistor, emitter/collector/base"
 			(at 388.62 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25896,7 +25991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 17.272 26.67 90)
 			(effects
 				(font
@@ -26196,7 +26291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 377.952 143.51 90)
 			(effects
 				(font
@@ -26630,7 +26725,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 379.73 237.49 0)
+		(at 379.73 237.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26639,25 +26734,25 @@
 		(fields_autoplaced yes)
 		(uuid "b5dc28e5-8ca1-4727-b09e-8be880d2642d")
 		(property "Reference" "R70"
-			(at 381.508 236.6553 0)
+			(at 382.27 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10"
-			(at 381.508 239.1922 0)
+			(at 382.27 238.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 377.952 237.49 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 381.508 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26996,7 +27091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 358.902 127 90)
 			(effects
 				(font
@@ -27165,7 +27260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 334.01 136.398 90)
 			(effects
 				(font
@@ -27614,7 +27709,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d1e5ff50-3628-4468-bbd5-4b39fe61da94")
 		(property "Reference" "#PWR0118"
 			(at 173.99 40.64 0)
@@ -27738,7 +27832,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 267.97 90)
+		(at 256.54 267.97 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27762,8 +27856,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 269.748 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 256.54 266.192 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27998,7 +28092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 358.902 140.97 90)
 			(effects
 				(font
@@ -28338,7 +28432,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 216.2048 73.66 0)
 			(effects
 				(font
@@ -28470,7 +28564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
 			(at 374.65 201.93 0)
 			(effects
 				(font
@@ -28567,7 +28661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 397.51 135.128 90)
 			(effects
 				(font
@@ -29073,7 +29167,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 173.99 40.64 0)
+		(at 173.99 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29082,7 +29176,7 @@
 		(fields_autoplaced yes)
 		(uuid "f78a1727-4dfd-4dfe-b191-ba25a81f4c94")
 		(property "Reference" "R69"
-			(at 175.768 39.8053 0)
+			(at 175.768 23.2953 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29091,7 +29185,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 175.768 42.3422 0)
+			(at 175.768 25.8322 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29099,8 +29193,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.212 40.64 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 172.212 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29109,7 +29203,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 173.99 40.64 0)
+			(at 173.99 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29118,7 +29212,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 40.64 0)
+			(at 173.99 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29166,7 +29260,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_A-405_P5.08mm_Vertical_KathodeUp"
 			(at 372.11 123.19 0)
 			(effects
 				(font

@@ -3955,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC18-U_Vertical"
 			(at 171.45 83.82 0)
 			(effects
 				(font
@@ -4231,7 +4231,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 181.61 53.848 90)
 			(effects
 				(font
@@ -4274,7 +4274,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 52.07 90)
+		(at 148.59 52.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4298,8 +4298,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 53.848 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 148.59 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4499,7 +4499,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 24.892 66.04 90)
 			(effects
 				(font
@@ -4567,7 +4567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 160.02 85.598 90)
 			(effects
 				(font
@@ -4820,7 +4820,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9b203da-c1f7-496f-8174-2bf051a4370d")
 		(property "Reference" "R20"
-			(at 163.83 72.39 90)
+			(at 163.83 59.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,14 +4828,14 @@
 			)
 		)
 		(property "Value" "R"
-			(at 163.83 69.85 90)
+			(at 163.83 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 163.83 64.262 90)
 			(effects
 				(font

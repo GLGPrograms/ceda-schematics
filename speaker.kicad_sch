@@ -6380,7 +6380,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 110.49 0)
+		(at 232.41 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6389,25 +6389,25 @@
 		(fields_autoplaced yes)
 		(uuid "0a657f2f-b470-4223-bc5b-44944677e6ee")
 		(property "Reference" "R36"
-			(at 234.188 109.6553 0)
+			(at 234.95 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "37k"
-			(at 234.188 112.1922 0)
+			(at 234.95 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 230.632 110.49 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 234.188 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,31 +6449,34 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 232.41 102.87 180)
+		(at 232.41 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "19e7cad9-6b40-42a0-84bc-ead833570842")
 		(property "Reference" "R37"
-			(at 233.68 97.79 90)
+			(at 234.95 101.5999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "33k"
-			(at 231.14 97.79 90)
+			(at 234.95 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.188 102.87 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 230.632 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6583,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 245.11 74.93 0)
+		(at 245.11 74.93 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6589,25 +6592,25 @@
 		(fields_autoplaced yes)
 		(uuid "1ec7fe0a-3e5e-49c9-9969-fdf4bb2e2c36")
 		(property "Reference" "R78"
-			(at 246.888 74.0953 0)
+			(at 247.65 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "33"
-			(at 246.888 76.6322 0)
+			(at 247.65 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 243.332 74.93 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 246.888 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6915,7 +6918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 220.472 43.18 90)
 			(effects
 				(font
@@ -7412,7 +7415,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 233.3752 127 0)
 			(effects
 				(font
@@ -7481,7 +7484,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
 			(at 250.19 81.28 0)
 			(effects
 				(font
@@ -7874,7 +7877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 223.2152 67.31 0)
 			(effects
 				(font
@@ -8136,7 +8139,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 190.5 108.2548 0)
 			(effects
 				(font
@@ -8851,7 +8854,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 190.5 49.8348 0)
 			(effects
 				(font

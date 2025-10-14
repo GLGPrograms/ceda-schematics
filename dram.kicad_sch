@@ -12649,8 +12649,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "128b0d8e-5a0b-49d8-a6d9-aa1af84c392e")
-		(property "Reference" "K9"
-			(at 126.4159 151.13 0)
+		(property "Reference" "UK9"
+			(at 126.6033 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12659,7 +12659,7 @@
 			)
 		)
 		(property "Value" "4164"
-			(at 126.4159 153.67 0)
+			(at 126.6033 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12744,7 +12744,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "K9")
+					(reference "UK9")
 					(unit 1)
 				)
 			)
@@ -13241,7 +13241,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38404446-d2d4-455b-bcef-b9572bea5f43")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 59.69 101.6 90)
 			(effects
 				(font
@@ -13293,7 +13293,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)
@@ -13427,7 +13427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "424680a5-67b1-486f-8ce0-801bdf0db018")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 59.69 168.91 90)
 			(effects
 				(font
@@ -13479,7 +13479,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -13624,7 +13624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 219.4052 132.08 0)
 			(effects
 				(font
@@ -13836,7 +13836,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 266.7 110.49 0)
+		(at 266.7 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13845,25 +13845,25 @@
 		(fields_autoplaced yes)
 		(uuid "6392d5d1-5afb-4287-9f66-7e190c134ad1")
 		(property "Reference" "R66"
-			(at 269.24 109.855 0)
+			(at 269.24 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "470"
-			(at 269.24 112.395 0)
+			(at 269.24 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 264.922 110.49 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 268.478 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14149,7 +14149,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "74ea982b-1997-493d-9dd4-d7e7a18fb78e")
-		(property "Reference" "R52"
+		(property "Reference" "R53"
 			(at 59.69 109.22 90)
 			(effects
 				(font
@@ -14201,7 +14201,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R52")
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -14289,7 +14289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8345254d-6d8a-46d7-9937-74235efc4ffa")
-		(property "Reference" "R50"
+		(property "Reference" "R51"
 			(at 59.69 153.67 90)
 			(effects
 				(font
@@ -14341,7 +14341,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R50")
+					(reference "R51")
 					(unit 1)
 				)
 			)
@@ -14423,7 +14423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83dab35f-946c-4d15-99dc-286427371837")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 59.69 86.36 90)
 			(effects
 				(font
@@ -14475,7 +14475,7 @@
 		(instances
 			(project ""
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -14912,8 +14912,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9985740d-4b84-4de5-adcb-bdfb35e8e562")
-		(property "Reference" "R4"
-			(at 242.57 85.09 90)
+		(property "Reference" "R62"
+			(at 242.57 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,14 +14921,14 @@
 			)
 		)
 		(property "Value" "R"
-			(at 242.57 87.63 90)
+			(at 242.57 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 242.57 91.948 90)
 			(effects
 				(font
@@ -14963,7 +14963,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R4")
+					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -16564,7 +16564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 266.7 118.11 0)
 			(effects
 				(font
@@ -16767,7 +16767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1774b3a-d174-4396-b2ce-2ff5b1f09fdb")
-		(property "Reference" "R53"
+		(property "Reference" "R54"
 			(at 59.69 161.29 90)
 			(effects
 				(font
@@ -16819,7 +16819,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R53")
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -16907,7 +16907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4fdc9a2-6d39-41d3-9109-6c9fd996e028")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 59.69 93.98 90)
 			(effects
 				(font
@@ -16959,7 +16959,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -17047,7 +17047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb31000d-4034-43bd-b6b2-7529d72f4fc0")
-		(property "Reference" "R51"
+		(property "Reference" "R52"
 			(at 59.69 146.05 90)
 			(effects
 				(font
@@ -17099,7 +17099,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/f05e0b09-5f96-4638-8985-dbb50d0f6ef2"
-					(reference "R51")
+					(reference "R52")
 					(unit 1)
 				)
 			)

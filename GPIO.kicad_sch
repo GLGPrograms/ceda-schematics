@@ -9282,7 +9282,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 217.678 86.36 90)
 			(effects
 				(font
@@ -9418,7 +9418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 217.678 119.38 90)
 			(effects
 				(font
@@ -9461,7 +9461,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 264.16 127 90)
+		(at 264.16 127 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9469,7 +9469,7 @@
 		(dnp no)
 		(uuid "06e62658-edac-4ac7-84a9-1ab05371453b")
 		(property "Reference" "R26"
-			(at 264.16 121.92 90)
+			(at 264.16 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,15 +9477,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 264.16 124.46 90)
+			(at 264.16 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 264.16 128.778 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 264.16 125.222 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,7 +9962,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 264.16 109.22 90)
+		(at 264.16 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9970,7 +9970,7 @@
 		(dnp no)
 		(uuid "41fffe44-85ea-4be6-bcd9-8fd7d797cbd5")
 		(property "Reference" "R27"
-			(at 264.16 104.14 90)
+			(at 264.16 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9978,15 +9978,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 264.16 106.68 90)
+			(at 264.16 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 264.16 110.998 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 264.16 107.442 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10266,7 +10266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 90.932 151.13 90)
 			(effects
 				(font
@@ -10335,7 +10335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
 			(at 214.122 144.78 90)
 			(effects
 				(font
@@ -10546,7 +10546,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 264.16 118.11 90)
+		(at 264.16 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10554,7 +10554,7 @@
 		(dnp no)
 		(uuid "6e34547b-70cb-4b64-aa21-6e92c3823ec0")
 		(property "Reference" "R25"
-			(at 264.16 113.03 90)
+			(at 264.16 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10562,15 +10562,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 264.16 115.57 90)
+			(at 264.16 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 264.16 119.888 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 264.16 116.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11249,7 +11249,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 264.16 101.6 90)
+		(at 264.16 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11257,7 +11257,7 @@
 		(dnp no)
 		(uuid "a646f201-1ec4-408f-bff3-5acb5f77ac24")
 		(property "Reference" "R24"
-			(at 264.16 96.52 90)
+			(at 264.16 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11265,15 +11265,15 @@
 			)
 		)
 		(property "Value" "R"
-			(at 264.16 99.06 90)
+			(at 264.16 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 264.16 103.378 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+			(at 264.16 99.822 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11849,7 +11849,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 214.9348 102.87 0)
 			(effects
 				(font

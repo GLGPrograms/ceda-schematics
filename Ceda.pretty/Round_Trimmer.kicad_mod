@@ -1,0 +1,124 @@
+(footprint "Round_Trimmer"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Potentiometer, horizontal, Piher PT-10-H01, http://www.piher-nacesa.com/pdf/12-PT10v03.pdf")
+	(tags "Potentiometer horizontal Piher PT-10-H01")
+	(property "Reference" "REF**"
+		(at 0 -3.9 0)
+		(layer "F.SilkS")
+		(uuid "cff0de2f-7ab5-4567-9db8-1366645e0ed9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Round_Trimmer"
+		(at 0 8.9 0)
+		(layer "F.Fab")
+		(uuid "2bec9200-218b-44f1-a37a-99719f4e272a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "24dbd003-0856-41b6-87ed-be0e8f0233cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "939ea6e1-88b7-451b-b5b9-32e4067fe457")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 2.5)
+		(end -0.25 5.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "263a760d-3bb8-4d62-9437-a4d856b8e140")
+	)
+	(fp_circle
+		(center 0 2.5)
+		(end 0 3.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4e80f779-43c9-496c-85c9-c74677076a41")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.4 2.5 0)
+		(layer "F.Fab")
+		(uuid "0e6f2d1a-8322-413d-bda1-0955290e6239")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "de5c6fde-d2b9-4694-a84c-e77628fffeac")
+	)
+	(pad "2" thru_hole rect
+		(at 2.5 2.5)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7474660b-c447-4495-a1e6-0418e4603087")
+	)
+	(pad "3" thru_hole rect
+		(at 0 5)
+		(size 1.4 1.4)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e7b0f82-f51f-4c5a-bc44-ab69858d404a")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-H01_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
