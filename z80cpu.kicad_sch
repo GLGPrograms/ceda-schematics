@@ -3901,10 +3901,10 @@
 	)
 	(no_connect
 		(at 53.34 45.72)
-		(uuid "333997a2-df52-4959-8dc8-acf54ca46c9f")
+		(uuid "54cc22c4-f69e-4cde-b410-5b74a9b716b5")
 	)
 	(no_connect
-		(at 53.34 48.26)
+		(at 53.34 30.48)
 		(uuid "7d52962f-f40f-4284-9550-96cf7f4526e4")
 	)
 	(no_connect
@@ -3912,7 +3912,7 @@
 		(uuid "d28e2ad4-6750-4fc6-8a87-c1a343b28edc")
 	)
 	(no_connect
-		(at 53.34 30.48)
+		(at 53.34 48.26)
 		(uuid "d656201b-3147-48e9-944c-25d7398e804f")
 	)
 	(no_connect
@@ -4281,7 +4281,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 33.02) (xy 53.34 33.02)
+			(xy 45.72 43.18) (xy 53.34 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4381,7 +4381,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 43.18) (xy 53.34 43.18)
+			(xy 45.72 33.02) (xy 53.34 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4531,7 +4531,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 35.56) (xy 53.34 35.56)
+			(xy 45.72 40.64) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5881,7 +5881,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 40.64) (xy 53.34 40.64)
+			(xy 45.72 35.56) (xy 53.34 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6250,7 +6250,7 @@
 		(uuid "42b05169-15bf-4cc7-91f0-4e1b37c2730b")
 	)
 	(label "~{RESET}"
-		(at 45.72 40.64 0)
+		(at 45.72 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6280,7 +6280,7 @@
 		(uuid "4cadc959-01bb-4ece-8a9e-a36ec0c86f86")
 	)
 	(label "~{INT}"
-		(at 45.72 43.18 0)
+		(at 45.72 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6440,7 +6440,7 @@
 		(uuid "cbd830e6-a05f-448b-9eb8-fb603c5ad0f3")
 	)
 	(label "~{NMI}"
-		(at 45.72 33.02 0)
+		(at 45.72 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6460,7 +6460,7 @@
 		(uuid "ccdee42f-c0f6-4c29-92a3-b8f56edb98aa")
 	)
 	(label "~{WAIT}"
-		(at 45.72 35.56 0)
+		(at 45.72 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
