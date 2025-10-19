@@ -3671,7 +3671,7 @@
 			)
 		)
 	)
-	(global_label "IE_O"
+	(global_label "~{IE_O}"
 		(shape output)
 		(at 49.53 73.66 180)
 		(fields_autoplaced yes)
@@ -4473,7 +4473,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 26.67 66.04 0)
+		(at 26.67 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4481,26 +4481,26 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ca6cb39-c7e4-4391-9dcf-efac9481225d")
-		(property "Reference" "R9"
-			(at 29.21 64.77 0)
+		(property "Reference" "R39"
+			(at 29.21 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "R"
-			(at 29.21 67.31 0)
+			(at 29.21 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 24.892 66.04 90)
+			(at 28.448 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4534,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/08d69802-ecbf-4783-8ee3-1052eb874de4"
-					(reference "R9")
+					(reference "R39")
 					(unit 1)
 				)
 			)

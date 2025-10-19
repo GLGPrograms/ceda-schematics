@@ -5072,7 +5072,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 160.02) (xy 115.57 160.02)
+			(xy 133.35 160.02) (xy 115.57 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5362,7 +5362,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 184.15) (xy 142.24 184.15)
+			(xy 115.57 184.15) (xy 133.35 184.15)
 		)
 		(stroke
 			(width 0)
@@ -5920,16 +5920,6 @@
 		)
 		(uuid "249dcc9a-ea61-452c-a66a-4c47cbe2575c")
 	)
-	(label "KBD_RX"
-		(at 142.24 160.02 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "27058051-12f5-47f0-9659-02df80229580")
-	)
 	(label "RxCA'"
 		(at 256.54 60.96 0)
 		(effects
@@ -6210,16 +6200,6 @@
 		)
 		(uuid "dfc826b0-72f0-4e93-b2a5-74e5943d636c")
 	)
-	(label "KBD_TX"
-		(at 142.24 184.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e1ce45c3-749c-4dd3-a7b7-3b668f4c60a7")
-	)
 	(label "RxDA"
 		(at 115.57 58.42 0)
 		(effects
@@ -6366,6 +6346,28 @@
 			)
 		)
 	)
+	(global_label "KBD_TX"
+		(shape input)
+		(at 133.35 184.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23b6e0b9-0534-4a17-b866-f2528967897d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.2899 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "~{IE_1}"
 		(shape output)
 		(at 36.83 97.79 180)
@@ -6450,6 +6452,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "KBD_RX"
+		(shape input)
+		(at 133.35 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "471ec062-afbe-4b94-af09-5287d9f97abc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.5923 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8799,7 +8823,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8911f48-7a88-4814-a88f-0b3e82ad4db1")
-		(property "Reference" "C10"
+		(property "Reference" "C29"
 			(at 120.65 76.2 90)
 			(effects
 				(font
@@ -8850,7 +8874,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "C10")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -9679,7 +9703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5452e20-649b-437b-8c97-67b6b5d6e2bb")
-		(property "Reference" "C6"
+		(property "Reference" "C18"
 			(at 214.63 76.2 90)
 			(effects
 				(font
@@ -9730,7 +9754,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "C6")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -9841,7 +9865,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 91.44 154.94 0)
+		(at 91.44 154.94 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9855,7 +9879,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "4k7"
@@ -9864,11 +9888,11 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
-			(at 89.662 154.94 90)
+			(at 93.218 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9918,7 +9942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d875ace6-6566-4ab1-a514-121b6594f242")
-		(property "Reference" "C8"
+		(property "Reference" "C31"
 			(at 120.65 44.45 90)
 			(effects
 				(font
@@ -9969,7 +9993,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "C8")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -10088,7 +10112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e773c4fd-6f6c-4ad5-b3bf-309d6a8190be")
-		(property "Reference" "C9"
+		(property "Reference" "C30"
 			(at 120.65 60.96 90)
 			(effects
 				(font
@@ -10139,7 +10163,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "C9")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -10155,7 +10179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9ba50f8-a505-40a1-b3a0-e87b22676a58")
-		(property "Reference" "C4"
+		(property "Reference" "C19"
 			(at 245.11 120.65 90)
 			(effects
 				(font
@@ -10206,7 +10230,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "C4")
+					(reference "C19")
 					(unit 1)
 				)
 			)

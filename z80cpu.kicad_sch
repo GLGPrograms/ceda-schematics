@@ -6419,16 +6419,6 @@
 		)
 		(uuid "c3578c2a-d52b-41ea-afcd-a8ad063ad1e4")
 	)
-	(label "EXBUS_38"
-		(at 156.21 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c44975d1-f862-4917-8254-015f5eb73a49")
-	)
 	(label "~{WR}"
 		(at 109.22 166.37 0)
 		(effects
@@ -6941,6 +6931,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{BUSACK}"
+		(shape output)
+		(at 156.21 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe55a007-120a-4205-a951-2f57aab20111")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.6338 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

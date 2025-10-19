@@ -20832,7 +20832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235c39d0-7333-4a55-8d7b-f911192dc14a")
-		(property "Reference" "R39"
+		(property "Reference" "R7777"
 			(at 382.27 115.5699 0)
 			(effects
 				(font
@@ -20885,7 +20885,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/ce60e45b-d802-4380-8f39-bef3de5fa20e"
-					(reference "R39")
+					(reference "R7777")
 					(unit 1)
 				)
 			)
