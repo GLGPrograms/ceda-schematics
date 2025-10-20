@@ -6578,17 +6578,6 @@
 	)
 	(text "TODO"
 		(exclude_from_sim no)
-		(at 110.49 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d7b91ed-f60e-49dc-981b-07ff982ab9a9")
-	)
-	(text "TODO"
-		(exclude_from_sim no)
 		(at 93.98 67.31 0)
 		(effects
 			(font

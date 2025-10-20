@@ -20784,7 +20784,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+		(property "Footprint" ""
 			(at 360.68 48.26 0)
 			(effects
 				(font
@@ -20850,7 +20850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Vertical"
+		(property "Footprint" ""
 			(at 377.952 116.84 90)
 			(effects
 				(font
@@ -20874,6 +20874,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field5" ""
+			(at 379.73 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

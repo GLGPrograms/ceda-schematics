@@ -5017,7 +5017,7 @@
 			)
 		)
 	)
-	(global_label "~{IOREQ}"
+	(global_label "~{IORQ}"
 		(shape input)
 		(at 153.67 151.13 0)
 		(fields_autoplaced yes)
@@ -5029,7 +5029,7 @@
 		)
 		(uuid "25cdf743-cf3c-4c54-9a22-2a72f30ef835")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.34 151.13 0)
+			(at 161.191 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

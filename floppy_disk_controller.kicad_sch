@@ -10364,17 +10364,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "B4 PIO"
-		(exclude_from_sim no)
-		(at 305.435 88.265 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c7179b2-abc6-44e9-8235-0455af32649e")
-	)
 	(text "to IDC40 connector"
 		(exclude_from_sim no)
 		(at 366.395 109.855 90)
@@ -11194,7 +11183,7 @@
 	)
 	(wire
 		(pts
-			(xy 15.24 63.5) (xy 24.13 63.5)
+			(xy 21.59 63.5) (xy 24.13 63.5)
 		)
 		(stroke
 			(width 0)
@@ -11494,7 +11483,7 @@
 	)
 	(wire
 		(pts
-			(xy 305.435 88.9) (xy 330.2 88.9)
+			(xy 321.31 88.9) (xy 330.2 88.9)
 		)
 		(stroke
 			(width 0)
@@ -11864,6 +11853,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 38.1) (xy 118.11 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7de9f4-8879-48e8-a5a0-20b8f754def4")
+	)
+	(wire
+		(pts
 			(xy 130.175 105.41) (xy 139.7 105.41)
 		)
 		(stroke
@@ -12091,6 +12090,16 @@
 			(type default)
 		)
 		(uuid "37bc021a-1699-46d6-b65a-7a130421c9c3")
+	)
+	(wire
+		(pts
+			(xy 118.11 49.53) (xy 118.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38a3fe5e-311a-48cc-a16c-584e26eba1af")
 	)
 	(wire
 		(pts
@@ -13531,6 +13540,16 @@
 			(type default)
 		)
 		(uuid "8addfb99-78eb-4fe1-85c8-fbbd9d2f5311")
+	)
+	(wire
+		(pts
+			(xy 114.3 49.53) (xy 118.11 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c51bb56-51b1-47d5-82dc-cc5f418d0823")
 	)
 	(wire
 		(pts
@@ -16222,16 +16241,6 @@
 		)
 		(uuid "8fdd1f0f-a6cc-4b18-8792-1f143a956624")
 	)
-	(label "FDC_CLK"
-		(at 143.51 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91fb54ef-ff94-4cef-afa7-1f5ccc9ca6a6")
-	)
 	(label "READY"
 		(at 305.435 35.56 0)
 		(effects
@@ -16542,16 +16551,6 @@
 		)
 		(uuid "e469eaba-f342-4b90-a6c1-ede7221e09b7")
 	)
-	(label "~{FDC_TC}"
-		(at 15.24 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e49db6e8-f2f0-42ae-bc60-faf9113e3cc1")
-	)
 	(label "WDATA"
 		(at 305.435 69.85 0)
 		(effects
@@ -16561,16 +16560,6 @@
 			(justify left bottom)
 		)
 		(uuid "e5a66362-b853-443e-bb6d-222b714afeb3")
-	)
-	(label "FDC_CLK"
-		(at 31.75 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e73d3e1e-2724-40d4-b6ff-7aea27a21e15")
 	)
 	(label "~{RD_DATA}"
 		(at 241.3 143.51 0)
@@ -16788,6 +16777,28 @@
 			)
 		)
 	)
+	(global_label "FDC_CLK"
+		(shape input)
+		(at 31.75 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "75a805d8-62d6-44bb-8828-72096740baf0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 20.6005 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FDC_INT"
 		(shape input)
 		(at 31.75 74.93 180)
@@ -16832,6 +16843,28 @@
 			)
 		)
 	)
+	(global_label "FDC_MOTORON"
+		(shape input)
+		(at 321.31 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9d55dcbe-16af-4ae0-8db2-b537842d155b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 304.7176 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "A[15..0]"
 		(shape input)
 		(at 12.7 76.2 180)
@@ -16854,6 +16887,28 @@
 			)
 		)
 	)
+	(global_label "FDC_CLK"
+		(shape input)
+		(at 114.3 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a503e02d-52c8-4cc0-a1e7-46fdbc50a1ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 103.1505 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RESET"
 		(shape input)
 		(at 31.75 85.09 180)
@@ -16867,6 +16922,50 @@
 		(uuid "a782ed63-183d-418a-b21a-9f3598dcba87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 23.0197 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{FDC_TC}"
+		(shape input)
+		(at 21.59 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af3931df-0347-4d00-b2e7-95db620ba472")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 11.771 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "FDC_CLK"
+		(shape input)
+		(at 143.51 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c69c1419-2bbe-4814-ae09-63f23f7d162d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 132.3605 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19087,6 +19186,75 @@
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
 					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 118.11 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e907315-9a0f-4846-b0de-6410a4651086")
+		(property "Reference" "R77"
+			(at 120.65 43.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 120.65 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+			(at 116.332 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdfc21ec-c3ca-44d1-9935-f3405a7cf96a")
+		)
+		(pin "2"
+			(uuid "b2b7315a-4fa4-42ab-876a-8b16a229d71f")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -24482,6 +24650,71 @@
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 118.11 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a871604a-b0fc-4eac-a25b-78fb5f7efbb3")
+		(property "Reference" "#PWR0267"
+			(at 118.11 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 118.11 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc9900d6-fd98-4e87-9819-05649c863491")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/30cc577a-62cc-4eb0-beb7-81a864bc3256"
+					(reference "#PWR0267")
 					(unit 1)
 				)
 			)
