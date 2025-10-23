@@ -16733,7 +16733,7 @@
 			)
 		)
 	)
-	(global_label "~{RD}"
+	(global_label "~{IO_OE}"
 		(shape input)
 		(at 31.75 77.47 180)
 		(fields_autoplaced yes)
@@ -16745,7 +16745,7 @@
 		)
 		(uuid "6757f335-01bd-4b6e-8519-e1db4bffb8a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.2248 77.47 0)
+			(at 23.3824 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16755,7 +16755,7 @@
 			)
 		)
 	)
-	(global_label "~{WR}"
+	(global_label "~{IO_WR}"
 		(shape input)
 		(at 31.75 80.01 180)
 		(fields_autoplaced yes)
@@ -16767,7 +16767,7 @@
 		)
 		(uuid "754c1f53-cab4-4e54-9e95-498dc91284b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.0434 80.01 0)
+			(at 23.1405 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
