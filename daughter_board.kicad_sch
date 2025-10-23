@@ -5632,7 +5632,7 @@
 			)
 		)
 	)
-	(global_label "SER_9"
+	(global_label "+12V"
 		(shape input)
 		(at 40.64 129.54 180)
 		(fields_autoplaced yes)
@@ -5644,7 +5644,7 @@
 		)
 		(uuid "411685fc-b8fa-4f0c-8726-75bb69789cd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.8492 129.54 0)
+			(at 32.5748 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5940,7 +5940,7 @@
 			)
 		)
 	)
-	(global_label "SER20"
+	(global_label "SER_20"
 		(shape input)
 		(at 40.64 111.76 180)
 		(fields_autoplaced yes)
@@ -5952,7 +5952,7 @@
 		)
 		(uuid "9ff4dbe5-7914-4484-8499-5a63188aef73")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.6073 111.76 0)
+			(at 30.6397 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
