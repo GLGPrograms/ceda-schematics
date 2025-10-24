@@ -4061,6 +4061,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -4181,6 +4306,107 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:-12V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "-12V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"-12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "-12V_0_0"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "-12V_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy 0.762 1.27) (xy 0 2.54) (xy -0.762 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -4461,10 +4687,6 @@
 	(no_connect
 		(at 257.81 90.17)
 		(uuid "7badd757-ecb9-4f3f-b249-6cdedb2ab515")
-	)
-	(no_connect
-		(at 265.43 85.09)
-		(uuid "9a83dc24-4899-429d-b3c3-ebcb69fcca4f")
 	)
 	(no_connect
 		(at 74.93 95.25)
@@ -4872,6 +5094,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 120.65) (xy 166.37 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0415fa-683a-4d84-92a9-be76ad89aa7d")
+	)
+	(wire
+		(pts
 			(xy 24.13 157.48) (xy 36.83 157.48)
 		)
 		(stroke
@@ -4939,6 +5171,16 @@
 			(type default)
 		)
 		(uuid "449ab67c-4320-4119-8125-04d075d27d60")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.65) (xy 139.7 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47322557-2e58-4b9f-9031-067fcb49af5a")
 	)
 	(wire
 		(pts
@@ -5012,6 +5254,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 120.65) (xy 168.91 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e9e0f17-3d23-4944-b43c-d9596cb81c7a")
+	)
+	(wire
+		(pts
 			(xy 36.83 92.71) (xy 43.18 92.71)
 		)
 		(stroke
@@ -5069,6 +5321,16 @@
 			(type default)
 		)
 		(uuid "6ec9e4a9-4b53-4446-ab3e-06628a8590c2")
+	)
+	(wire
+		(pts
+			(xy 260.35 83.82) (xy 265.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8d274f-2ce4-444f-90f1-816ba8321798")
 	)
 	(wire
 		(pts
@@ -5182,6 +5444,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 85.09) (xy 265.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac4212c-fabb-4901-b58f-c673ed71dba3")
+	)
+	(wire
+		(pts
 			(xy 165.1 92.71) (xy 165.1 90.17)
 		)
 		(stroke
@@ -5279,6 +5551,16 @@
 			(type default)
 		)
 		(uuid "a35d56c7-7777-4a7f-8f22-9d42911acbbb")
+	)
+	(wire
+		(pts
+			(xy 139.7 120.65) (xy 137.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4298cce-2f78-4569-87db-04c0ef35a672")
 	)
 	(wire
 		(pts
@@ -7166,6 +7448,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 129.54 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a3a1967-5acc-4a4b-96bb-81a39aa471b6")
+		(property "Reference" "#PWR0268"
+			(at 129.54 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 129.54 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 129.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43d87963-5ec2-440c-909a-255faf6395b2")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "#PWR0268")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ceda:SIOCLK")
 		(at 267.97 66.04 270)
 		(unit 1)
@@ -7622,6 +7970,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 158.75 132.08 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e04a45a-167a-4703-9375-b478c4fa8a6e")
+		(property "Reference" "#PWR0273"
+			(at 158.75 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 158.75 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d638b878-e401-4314-b9a3-8619bf53f802")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "#PWR0273")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 91.44 149.86 0)
 		(unit 1)
@@ -7747,6 +8162,71 @@
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
 					(reference "#PWR0216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b2f7d82-48f2-411f-931d-17be727ee461")
+		(property "Reference" "#PWR0271"
+			(at 168.91 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 127.6334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f9d2dde-0b84-4a31-ac7c-c07b2c83c06c")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "#PWR0271")
 					(unit 1)
 				)
 			)
@@ -8163,6 +8643,72 @@
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
 					(reference "UC10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 158.75 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "606853e5-74de-4f00-8883-14b95328782b")
+		(property "Reference" "#PWR0272"
+			(at 158.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 158.75 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 158.75 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd41d85e-46d7-41c8-b429-5321066c8ad1")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "#PWR0272")
 					(unit 1)
 				)
 			)
@@ -8608,6 +9154,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-12V")
+		(at 129.54 132.08 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85ccf1e9-dd6a-46c8-9bf5-825abd9bbab2")
+		(property "Reference" "#PWR0269"
+			(at 129.54 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-12V"
+			(at 129.54 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-12V\""
+			(at 129.54 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85118cb7-4862-479d-8894-384a80576300")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "#PWR0269")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ceda:SN74189")
 		(at 129.54 74.93 0)
 		(mirror y)
@@ -8809,6 +9422,71 @@
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
 					(reference "UC15")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8fc42048-491e-4c5a-b592-0a0ff9b3abb6")
+		(property "Reference" "#PWR0270"
+			(at 139.7 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 127.6334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6cd469ad-20ae-4dbd-9971-270623c3ac7d")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "#PWR0270")
+					(unit 1)
 				)
 			)
 		)
@@ -9282,6 +9960,111 @@
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
 					(reference "UB9")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ceda:SN75188")
+		(at 129.54 120.65 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba1136d3-1542-4281-ae94-24334f3feea2")
+		(property "Reference" "UD15"
+			(at 124.46 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SN75188"
+			(at 124.46 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f0bed7b6-f1bd-45d0-936a-66c48fb1abd2")
+		)
+		(pin "3"
+			(uuid "de4318f0-e2cd-4fea-96f6-ae23d19bc88d")
+		)
+		(pin "4"
+			(uuid "bd17e5af-add8-423d-b6c6-c634889ee0b7")
+		)
+		(pin "5"
+			(uuid "576fda7d-a5ab-4036-b373-9344f906252d")
+		)
+		(pin "6"
+			(uuid "7e6af640-fcc9-44c4-9760-6524200ff24c")
+		)
+		(pin "10"
+			(uuid "cda5378e-b11a-4f05-ab35-0210870f396f")
+		)
+		(pin "8"
+			(uuid "4781a5e3-b81d-4588-9712-b3cfc2c65396")
+		)
+		(pin "9"
+			(uuid "0a98e59a-0cb6-4c8b-b7e7-2402eb4f9f99")
+		)
+		(pin "11"
+			(uuid "258e7c65-a711-4b52-9e4f-fb60a894b223")
+		)
+		(pin "12"
+			(uuid "51bf9ddc-6ad3-418b-a052-55ac6380fb3c")
+		)
+		(pin "13"
+			(uuid "782006aa-3635-4994-a69d-edf93534432f")
+		)
+		(pin "1"
+			(uuid "32869305-d680-4377-87b1-0d7716b30602")
+		)
+		(pin "14"
+			(uuid "f9f0a18e-2900-4b43-82af-33249771c3db")
+		)
+		(pin "7"
+			(uuid "130b2bc0-7287-424e-aa0b-1b8ea4ee542d")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "UD15")
+					(unit 5)
 				)
 			)
 		)
@@ -9933,6 +10716,111 @@
 		)
 	)
 	(symbol
+		(lib_id "ceda:SN75188")
+		(at 158.75 120.65 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d735f8cd-90d6-47cb-b41c-d2f85da32619")
+		(property "Reference" "UD16"
+			(at 153.67 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SN75188"
+			(at 153.67 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d51a8919-44e0-414d-8972-73e4fe062e49")
+		)
+		(pin "3"
+			(uuid "e182c16b-7aea-4ceb-b7f1-e460ef888efe")
+		)
+		(pin "4"
+			(uuid "b532d0d8-fd80-4d33-80d8-b123877d1ded")
+		)
+		(pin "5"
+			(uuid "faf98069-47b7-4670-afde-29f5687855a6")
+		)
+		(pin "6"
+			(uuid "e0663c18-33ef-43c1-a895-f832816b397d")
+		)
+		(pin "10"
+			(uuid "d067c40c-ad8d-40e4-ab83-032f7ff32e6f")
+		)
+		(pin "8"
+			(uuid "b34d1cd8-ee95-4bca-9444-2b257bd79bcb")
+		)
+		(pin "9"
+			(uuid "df05c686-5141-4861-88a1-ca79026f74d4")
+		)
+		(pin "11"
+			(uuid "af3194fc-4ca3-41aa-9e01-0b8d27ea237a")
+		)
+		(pin "12"
+			(uuid "abd60f02-3402-4679-9ea1-f049b1f5a6f0")
+		)
+		(pin "13"
+			(uuid "33565f1b-ee20-4c5d-b5d1-d580a23f3071")
+		)
+		(pin "1"
+			(uuid "6ac90280-503f-41e3-b80d-fa3954b5e2e9")
+		)
+		(pin "14"
+			(uuid "ea37864c-7f3f-4802-9bff-1c63d2257dd9")
+		)
+		(pin "7"
+			(uuid "3a5fe8be-422e-4610-9830-531c9a94988c")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "UD16")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 120.65 52.07 90)
 		(unit 1)
@@ -10237,6 +11125,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 256.54 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "eb670016-a28b-4448-9c38-4b035c36e57d")
+		(property "Reference" "C28"
+			(at 256.54 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330p"
+			(at 256.54 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
+			(at 260.35 82.8548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 256.54 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fd8c9047-0958-4e8b-888d-1caa83b6f486")
+		)
+		(pin "2"
+			(uuid "43d2b24f-0830-42ef-8728-75a9885ec98b")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 128.27 270)
 		(unit 1)
@@ -10297,6 +11252,72 @@
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
 					(reference "#PWR0217")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 252.73 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdce357a-d24f-422e-90ac-173ea7fbf916")
+		(property "Reference" "#PWR0274"
+			(at 246.38 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 252.73 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e87f8f1a-77f6-4f64-8947-a58ad2f7c894")
+		)
+		(instances
+			(project "ceda"
+				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
+					(reference "#PWR0274")
 					(unit 1)
 				)
 			)

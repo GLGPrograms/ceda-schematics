@@ -5984,7 +5984,7 @@
 			)
 		)
 	)
-	(global_label "SER_10"
+	(global_label "-12V"
 		(shape input)
 		(at 59.69 129.54 0)
 		(fields_autoplaced yes)
@@ -5996,7 +5996,7 @@
 		)
 		(uuid "c2a80341-7425-4310-b9cc-293e6dc2ca47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.6903 129.54 0)
+			(at 67.7552 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
