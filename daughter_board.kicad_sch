@@ -4124,6 +4124,17 @@
 		)
 		(uuid "16150631-3eaa-4fe7-b258-c8b949ba8916")
 	)
+	(text "TODO: PRINTER_9 is 18 or 20?"
+		(exclude_from_sim no)
+		(at 73.152 89.662 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "44758618-f94b-4131-943b-93c1f6fb6e63")
+	)
 	(text "This is another board, connected through J2"
 		(exclude_from_sim no)
 		(at 25.4 29.21 0)

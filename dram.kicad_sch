@@ -5685,16 +5685,6 @@
 		)
 		(uuid "a5cc81fa-45cc-4366-89d5-b2652fc287bd")
 	)
-	(text "TODO: check\nA14/A15 swap"
-		(exclude_from_sim no)
-		(at 16.256 174.244 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a7789d72-158e-4178-b410-e530ba6663d3")
-	)
 	(text "Enabled only during\nDRAM reads"
 		(exclude_from_sim no)
 		(at 180.34 114.3 0)

@@ -8994,7 +8994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80f210d3-90b9-408d-9f34-6ec1c642ee3c")
-		(property "Reference" "C3"
+		(property "Reference" "C17"
 			(at 199.39 119.38 90)
 			(effects
 				(font
@@ -9045,7 +9045,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "C3")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -10019,19 +10019,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "f0bed7b6-f1bd-45d0-936a-66c48fb1abd2")
+			(uuid "f0bed7b6-f1bd-45d0-936a-66c48fb1abd3")
 		)
 		(pin "3"
-			(uuid "de4318f0-e2cd-4fea-96f6-ae23d19bc88d")
+			(uuid "de4318f0-e2cd-4fea-96f6-ae23d19bc88e")
 		)
 		(pin "4"
-			(uuid "bd17e5af-add8-423d-b6c6-c634889ee0b7")
+			(uuid "bd17e5af-add8-423d-b6c6-c634889ee0b8")
 		)
 		(pin "5"
-			(uuid "576fda7d-a5ab-4036-b373-9344f906252d")
+			(uuid "576fda7d-a5ab-4036-b373-9344f906252e")
 		)
 		(pin "6"
-			(uuid "7e6af640-fcc9-44c4-9760-6524200ff24c")
+			(uuid "7e6af640-fcc9-44c4-9760-6524200ff24d")
 		)
 		(pin "10"
 			(uuid "cda5378e-b11a-4f05-ab35-0210870f396f")
@@ -10043,22 +10043,22 @@
 			(uuid "0a98e59a-0cb6-4c8b-b7e7-2402eb4f9f99")
 		)
 		(pin "11"
-			(uuid "258e7c65-a711-4b52-9e4f-fb60a894b223")
+			(uuid "258e7c65-a711-4b52-9e4f-fb60a894b224")
 		)
 		(pin "12"
-			(uuid "51bf9ddc-6ad3-418b-a052-55ac6380fb3c")
+			(uuid "51bf9ddc-6ad3-418b-a052-55ac6380fb3d")
 		)
 		(pin "13"
-			(uuid "782006aa-3635-4994-a69d-edf93534432f")
+			(uuid "782006aa-3635-4994-a69d-edf935344330")
 		)
 		(pin "1"
-			(uuid "32869305-d680-4377-87b1-0d7716b30602")
+			(uuid "32869305-d680-4377-87b1-0d7716b30603")
 		)
 		(pin "14"
-			(uuid "f9f0a18e-2900-4b43-82af-33249771c3db")
+			(uuid "f9f0a18e-2900-4b43-82af-33249771c3dc")
 		)
 		(pin "7"
-			(uuid "130b2bc0-7287-424e-aa0b-1b8ea4ee542d")
+			(uuid "130b2bc0-7287-424e-aa0b-1b8ea4ee542e")
 		)
 		(instances
 			(project "ceda"
@@ -10284,7 +10284,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d10edfe0-3d46-4816-8b61-87d11de9f127")
-		(property "Reference" "C5"
+		(property "Reference" "C16"
 			(at 213.36 63.5 90)
 			(effects
 				(font
@@ -10335,7 +10335,7 @@
 		(instances
 			(project "ceda"
 				(path "/12a6dbe3-008d-4c5b-88f6-9f1c816060be/e6a0e8fd-e32c-428e-9a73-cac8f5494d05"
-					(reference "C5")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -10776,40 +10776,40 @@
 			(uuid "e182c16b-7aea-4ceb-b7f1-e460ef888efe")
 		)
 		(pin "4"
-			(uuid "b532d0d8-fd80-4d33-80d8-b123877d1ded")
+			(uuid "b532d0d8-fd80-4d33-80d8-b123877d1dee")
 		)
 		(pin "5"
-			(uuid "faf98069-47b7-4670-afde-29f5687855a6")
+			(uuid "faf98069-47b7-4670-afde-29f5687855a7")
 		)
 		(pin "6"
-			(uuid "e0663c18-33ef-43c1-a895-f832816b397d")
+			(uuid "e0663c18-33ef-43c1-a895-f832816b397e")
 		)
 		(pin "10"
-			(uuid "d067c40c-ad8d-40e4-ab83-032f7ff32e6f")
+			(uuid "d067c40c-ad8d-40e4-ab83-032f7ff32e70")
 		)
 		(pin "8"
-			(uuid "b34d1cd8-ee95-4bca-9444-2b257bd79bcb")
+			(uuid "b34d1cd8-ee95-4bca-9444-2b257bd79bcc")
 		)
 		(pin "9"
-			(uuid "df05c686-5141-4861-88a1-ca79026f74d4")
+			(uuid "df05c686-5141-4861-88a1-ca79026f74d5")
 		)
 		(pin "11"
-			(uuid "af3194fc-4ca3-41aa-9e01-0b8d27ea237a")
+			(uuid "af3194fc-4ca3-41aa-9e01-0b8d27ea237b")
 		)
 		(pin "12"
-			(uuid "abd60f02-3402-4679-9ea1-f049b1f5a6f0")
+			(uuid "abd60f02-3402-4679-9ea1-f049b1f5a6f1")
 		)
 		(pin "13"
-			(uuid "33565f1b-ee20-4c5d-b5d1-d580a23f3071")
+			(uuid "33565f1b-ee20-4c5d-b5d1-d580a23f3072")
 		)
 		(pin "1"
-			(uuid "6ac90280-503f-41e3-b80d-fa3954b5e2e9")
+			(uuid "6ac90280-503f-41e3-b80d-fa3954b5e2ea")
 		)
 		(pin "14"
-			(uuid "ea37864c-7f3f-4802-9bff-1c63d2257dd9")
+			(uuid "ea37864c-7f3f-4802-9bff-1c63d2257dda")
 		)
 		(pin "7"
-			(uuid "3a5fe8be-422e-4610-9830-531c9a94988c")
+			(uuid "3a5fe8be-422e-4610-9830-531c9a94988d")
 		)
 		(instances
 			(project "ceda"
