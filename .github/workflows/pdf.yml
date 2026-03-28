@@ -1,0 +1,27 @@
+name: Create PDF
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  create-pdf:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Install dependencies
+      run: |
+        sudo add-apt-repository ppa:kicad/kicad-7.0-releases
+        sudo apt update
+        sudo apt install -y kicad kicad-libraries python3 git xdotool xvfb xsltproc imagemagick xclip pip recordmydesktop
+        sudo pip install xvfbwrapper psutil
+    - name: Install KiAuto
+      uses: actions/checkout@master
+      with:
+        repository: INTI-CMNB/KiAuto
+        path: KiAuto
+    - name: Export to PDF
+      run: ./KiAuto/src/eeschema_do --record export -a ceda.kicad_sch pdf
+    - uses: actions/upload-artifact@v3
+      with:
+        name: schematic
+        path: pdf
